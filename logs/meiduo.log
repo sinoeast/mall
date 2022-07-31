@@ -1,0 +1,258 @@
+INFO 2022-07-31 22:11:39,580 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-07-31 22:11:41,139 log 241 Not Found: /
+WARNING 2022-07-31 22:11:41,140 basehttp 187 "GET / HTTP/1.1" 404 2163
+WARNING 2022-07-31 22:11:41,236 log 241 Not Found: /favicon.ico
+WARNING 2022-07-31 22:11:41,236 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
+WARNING 2022-07-31 22:12:02,024 log 241 Not Found: /register
+WARNING 2022-07-31 22:12:02,025 basehttp 187 "GET /register HTTP/1.1" 404 2205
+INFO 2022-07-31 22:12:10,198 basehttp 187 "GET /users/register HTTP/1.1" 301 0
+INFO 2022-07-31 22:12:10,210 basehttp 187 "GET /users/register/ HTTP/1.1" 200 4889
+WARNING 2022-07-31 22:12:10,232 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1807
+WARNING 2022-07-31 22:12:10,232 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1825
+INFO 2022-07-31 22:12:10,450 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2022-07-31 22:12:10,451 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 39722
+WARNING 2022-07-31 22:12:10,462 basehttp 187 "GET /static/js/common.js HTTP/1.1" 404 1795
+WARNING 2022-07-31 22:12:10,462 basehttp 187 "GET /static/js/host.js HTTP/1.1" 404 1789
+INFO 2022-07-31 22:12:10,463 basehttp 187 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2022-07-31 22:12:10,463 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-07-31 22:12:10,464 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+WARNING 2022-07-31 22:12:10,464 basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 1801
+INFO 2022-07-31 22:12:10,466 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-07-31 22:12:10,467 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-07-31 22:13:14,867 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-07-31 22:13:17,178 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:17,179 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:18,091 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:18,091 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:18,160 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:18,160 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:18,964 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:18,965 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:26,856 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:26,857 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:30,223 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:30,224 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:44,178 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:44,180 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+INFO 2022-07-31 22:13:52,111 basehttp 187 "GET /users/register HTTP/1.1" 200 3192
+WARNING 2022-07-31 22:13:52,126 log 241 Not Found: /users/css/reset.css
+WARNING 2022-07-31 22:13:52,127 basehttp 187 "GET /users/css/reset.css HTTP/1.1" 404 2310
+WARNING 2022-07-31 22:13:52,139 log 241 Not Found: /users/css/main.css
+WARNING 2022-07-31 22:13:52,142 log 241 Not Found: /users/js/host.js
+WARNING 2022-07-31 22:13:52,142 log 241 Not Found: /users/images/pic_code.jpg
+WARNING 2022-07-31 22:13:52,142 basehttp 187 "GET /users/css/main.css HTTP/1.1" 404 2307
+WARNING 2022-07-31 22:13:52,145 log 241 Not Found: /users/js/common.js
+WARNING 2022-07-31 22:13:52,146 basehttp 187 "GET /users/js/host.js HTTP/1.1" 404 2301
+WARNING 2022-07-31 22:13:52,146 basehttp 187 "GET /users/images/pic_code.jpg HTTP/1.1" 404 2328
+WARNING 2022-07-31 22:13:52,147 log 241 Not Found: /users/js/register.js
+WARNING 2022-07-31 22:13:52,147 basehttp 187 "GET /users/js/common.js HTTP/1.1" 404 2307
+WARNING 2022-07-31 22:13:52,148 log 241 Not Found: /users/images/logo.png
+WARNING 2022-07-31 22:13:52,148 basehttp 187 "GET /users/js/register.js HTTP/1.1" 404 2313
+WARNING 2022-07-31 22:13:52,149 basehttp 187 "GET /users/images/logo.png HTTP/1.1" 404 2316
+WARNING 2022-07-31 22:13:59,732 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:13:59,732 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+WARNING 2022-07-31 22:13:59,838 log 241 Not Found: /favicon.ico
+WARNING 2022-07-31 22:13:59,839 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
+WARNING 2022-07-31 22:14:47,850 log 241 Not Found: /users/register/
+WARNING 2022-07-31 22:14:47,851 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
+INFO 2022-07-31 22:14:59,389 autoreload 266 C:\Users\sinoeast\Desktop\mall\apps\users\urls.py changed, reloading.
+INFO 2022-07-31 22:14:59,796 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-07-31 22:15:03,688 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3192
+WARNING 2022-07-31 22:15:03,726 log 241 Not Found: /users/register/css/reset.css
+WARNING 2022-07-31 22:15:03,728 log 241 Not Found: /users/register/js/common.js
+WARNING 2022-07-31 22:15:03,728 log 241 Not Found: /users/register/js/host.js
+WARNING 2022-07-31 22:15:03,729 log 241 Not Found: /users/register/js/register.js
+WARNING 2022-07-31 22:15:03,730 log 241 Not Found: /users/register/images/logo.png
+WARNING 2022-07-31 22:15:03,730 basehttp 187 "GET /users/register/css/reset.css HTTP/1.1" 404 2338
+WARNING 2022-07-31 22:15:03,730 log 241 Not Found: /users/register/css/main.css
+WARNING 2022-07-31 22:15:03,731 basehttp 187 "GET /users/register/js/common.js HTTP/1.1" 404 2335
+WARNING 2022-07-31 22:15:03,731 basehttp 187 "GET /users/register/js/host.js HTTP/1.1" 404 2329
+WARNING 2022-07-31 22:15:03,731 basehttp 187 "GET /users/register/js/register.js HTTP/1.1" 404 2341
+WARNING 2022-07-31 22:15:03,732 basehttp 187 "GET /users/register/images/logo.png HTTP/1.1" 404 2344
+WARNING 2022-07-31 22:15:03,734 basehttp 187 "GET /users/register/css/main.css HTTP/1.1" 404 2335
+WARNING 2022-07-31 22:15:03,736 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:15:03,736 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+WARNING 2022-07-31 22:15:29,351 log 241 Not Found: /users/register/css/reset.css
+WARNING 2022-07-31 22:15:29,351 log 241 Not Found: /users/register/css/main.css
+WARNING 2022-07-31 22:15:29,352 basehttp 187 "GET /users/register/css/reset.css HTTP/1.1" 404 2338
+WARNING 2022-07-31 22:15:29,352 basehttp 187 "GET /users/register/css/main.css HTTP/1.1" 404 2335
+WARNING 2022-07-31 22:15:43,000 log 241 Not Found: /users/register/css/reset.css
+WARNING 2022-07-31 22:15:43,000 basehttp 187 "GET /users/register/css/reset.css HTTP/1.1" 404 2338
+INFO 2022-07-31 22:16:54,907 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-07-31 22:16:56,951 log 241 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\apps\users\views.py", line 14, in get
+    return render(request, 'register.html')
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 76, in render
+    return self.template.render(context)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\sinoeast\Desktop\mall\templates\register.html", line 6, in top-level template code
+    <link rel="stylesheet" type="text/css" href={{ static(css/reset.css) }}>
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'reset' is undefined
+ERROR 2022-07-31 22:16:56,955 basehttp 187 "GET /users/register/ HTTP/1.1" 500 112477
+ERROR 2022-07-31 22:16:59,387 log 241 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\apps\users\views.py", line 14, in get
+    return render(request, 'register.html')
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 76, in render
+    return self.template.render(context)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\sinoeast\Desktop\mall\templates\register.html", line 6, in top-level template code
+    <link rel="stylesheet" type="text/css" href={{ static(css/reset.css) }}>
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'reset' is undefined
+ERROR 2022-07-31 22:16:59,398 basehttp 187 "GET /users/register/ HTTP/1.1" 500 112477
+ERROR 2022-07-31 22:16:59,979 log 241 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\sinoeast\Desktop\mall\apps\users\views.py", line 14, in get
+    return render(request, 'register.html')
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 76, in render
+    return self.template.render(context)
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\sinoeast\Desktop\mall\templates\register.html", line 6, in top-level template code
+    <link rel="stylesheet" type="text/css" href={{ static(css/reset.css) }}>
+  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'reset' is undefined
+ERROR 2022-07-31 22:16:59,990 basehttp 187 "GET /users/register/ HTTP/1.1" 500 112477
+INFO 2022-07-31 22:17:16,616 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-07-31 22:17:18,317 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3198
+WARNING 2022-07-31 22:17:18,359 log 241 Not Found: /users/register/js/register.js
+WARNING 2022-07-31 22:17:18,360 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:17:18,361 log 241 Not Found: /users/register/css/main.css
+WARNING 2022-07-31 22:17:18,361 log 241 Not Found: /users/register/images/logo.png
+WARNING 2022-07-31 22:17:18,362 log 241 Not Found: /users/register/js/common.js
+WARNING 2022-07-31 22:17:18,362 log 241 Not Found: /users/register/js/host.js
+WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/js/register.js HTTP/1.1" 404 2341
+WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/css/main.css HTTP/1.1" 404 2335
+WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/images/logo.png HTTP/1.1" 404 2344
+WARNING 2022-07-31 22:17:18,364 basehttp 187 "GET /users/register/js/common.js HTTP/1.1" 404 2335
+WARNING 2022-07-31 22:17:18,364 basehttp 187 "GET /users/register/js/host.js HTTP/1.1" 404 2329
+INFO 2022-07-31 22:19:37,679 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-07-31 22:19:39,818 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3228
+WARNING 2022-07-31 22:19:39,849 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:19:39,850 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:19:40,199 basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 0
+INFO 2022-07-31 22:19:40,199 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 0
+INFO 2022-07-31 22:19:40,199 basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 0
+INFO 2022-07-31 22:25:43,465 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-07-31 22:25:45,861 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:45,881 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2022-07-31 22:25:45,883 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:45,887 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:45,887 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:46,044 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 124
+INFO 2022-07-31 22:25:47,028 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:47,043 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:47,044 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:47,044 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:47,640 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:47,655 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:47,656 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:47,656 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:47,817 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:47,832 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:47,833 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:47,834 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:47,925 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:47,942 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:47,943 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:47,944 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:47,976 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:47,993 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:47,994 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:47,994 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:53,326 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:53,342 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:53,342 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:53,343 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:53,705 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+WARNING 2022-07-31 22:25:53,720 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:53,721 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:53,841 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+WARNING 2022-07-31 22:25:53,857 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:53,858 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:53,886 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+WARNING 2022-07-31 22:25:53,903 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:53,903 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:54,014 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+WARNING 2022-07-31 22:25:54,030 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:54,031 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:54,177 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:25:54,194 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:25:54,195 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:54,195 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:25:54,319 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+WARNING 2022-07-31 22:25:54,335 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:25:54,336 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:27:13,206 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:27:13,221 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2022-07-31 22:27:13,221 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:27:13,223 log 241 Not Found: /users/register/images/pic_code.jpg
+INFO 2022-07-31 22:27:13,223 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 147
+WARNING 2022-07-31 22:27:13,223 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:27:14,355 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:27:14,370 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:27:14,371 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:27:14,372 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:27:14,690 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:27:14,705 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:27:14,706 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:27:14,706 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:27:14,846 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:27:14,862 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:27:14,863 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:27:14,863 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
+INFO 2022-07-31 22:27:18,155 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
+INFO 2022-07-31 22:27:18,170 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-07-31 22:27:18,171 log 241 Not Found: /users/register/images/pic_code.jpg
+WARNING 2022-07-31 22:27:18,172 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
