@@ -17,5 +17,21 @@ class Register(View):
         return render(request, 'register.html')
 
     def post(self, request: HttpRequest):
+        """
+        username : "",
+        password : "",
+        password2 : "",
+        mobile : "",
+        pic_code : "",
+        sms_code : "",
+        allow : "",
+        :param request:
+        :return:
+        """
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        mobile = request.POST.get('mobile')
+        # if username == re
+
 
         pass

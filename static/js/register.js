@@ -44,7 +44,7 @@ var vm = new Vue({
             })
         },
         check_usernae:function (){
-            alert(this.username)
+            // alert(this.username)
         },
         // 表单提交
         on_submit(){
