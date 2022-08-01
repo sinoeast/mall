@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+# 根目录
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -25,6 +26,7 @@ SECRET_KEY = 'django-insecure-k@v0f$m&y_+z$9ptw!c99idf6-65=171#^%tmfk($4=mh)mxs9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#许可的地址
 ALLOWED_HOSTS = ['127.0.0.1']
 
 
@@ -37,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #应用注册
     'apps.users.apps.UsersConfig'
 ]
-
+# 中间件
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -49,11 +52,12 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+# 路由设置
 ROOT_URLCONF = 'mall.urls'
-
+# 模板设置
 TEMPLATES = [
     {
+        # jinja2的模板
         'BACKEND': 'django.template.backends.jinja2.Jinja2',
         # 'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'templates'],
@@ -69,6 +73,7 @@ TEMPLATES = [
         },
     },
 {
+        # django自带的模板
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
@@ -88,7 +93,7 @@ WSGI_APPLICATION = 'mall.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
+# 数据库
 DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
@@ -97,10 +102,11 @@ DATABASES = {
         'HOST': '127.0.0.1', # 数据库主机
         'PORT': 3306, # 数据库端口
         'USER': 'root', # 数据库用户名
-        'PASSWORD': '123456', # 数据库用户密码
+        'PASSWORD': 'root', # 数据库用户密码
         'NAME': 'meiduo_mall' # 数据库名字
     }
 }
+# redis和session设置
 CACHES = {
     "default": { # 默认
         "BACKEND": "django_redis.cache.RedisCache",
@@ -142,9 +148,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/ShangHai'
 
 USE_I18N = True
 
@@ -153,19 +159,19 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
-
+# 静态文件访问url路径
 STATIC_URL = 'static/'
 
-# 配置静态文件加载路径
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_benji')]
+# 静态文件加载路径
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+# 适配使用ORM user继承
 AUTH_USER_MODEL = 'users.User'
-
+# 日志
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
