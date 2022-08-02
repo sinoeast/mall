@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from apps.users.views import Register
+from apps.users.views import Register, UsernameCountView, MobileCountView
 
 urlpatterns = [
     path('register/', Register.as_view(), name='register'),
+    path('register/<str:username>', UsernameCountView.as_view(), name='UsernameCountView'),
+    path('register', MobileCountView.as_view(), name='mobileCountView'),
 ]

@@ -29,11 +29,16 @@ var vm = new Vue({
         error_allow_message: '请勾选用户协议',
 
         error_check_password: false,
+// 引用host.js 全局变量
+        host: host,
+        uuid:"",
+        image_code_url:""
 
     },
+
     methods : {
         register:function (){
-            alert(this.username+this.allow)
+            // alert(this.username+this.allow)
             axios.post(url, {
                 username: "",
                 password: ""
@@ -43,8 +48,54 @@ var vm = new Vue({
                 console.log(error)
             })
         },
-        check_usernae:function (){
-            // alert(this.username)
+        //检查用户名
+        check_username:function (){
+            let re = /^[0-9A-Za-z]{5,20}$/
+            if (re.test(this.username)){
+                let url = this.host+'/register/'+this.username
+                axios.get(url).then((respose)=>{
+                    if (respose.data.code == 400){
+                        this.error_name=true
+                        this.error_name_message=respose.data.contents
+                        //必须指定特定的条件 不然ajax会请求出404的页面进行匹配
+                    }else if(respose.data.count == 0){
+                        //正确的时候要隐藏提示
+                        this.error_name=false
+                    }else{
+                        this.error_name=true
+                        this.error_name_message="重复了"
+                    }
+
+                }).catch((respose)=>{
+                    console.log(respose)
+                })
+            }else{
+                this.error_name=true
+                this.error_name_message="请输入5-20个字符的用户"
+            }
+
+        },
+        //检查手机号
+        check_mobile:function (){
+            let re = /^1[345789]\d{9}$/;
+            if(re.test(this.mobile)){
+                let url = this.host+"/register?mobile="+this.mobile
+                axios.get(url).then(respose=>{
+                    if (respose.data.code == 400){
+                        this.error_mobile=true
+                        this.error_mobile_message=respose.data.contents
+                    }else if(respose.data.count == 0){
+                        this.error_mobile=false
+                    }else{
+                        this.error_mobile=true
+                        this.error_mobile_message="重复了"
+                    }
+                }).catch()
+            }else {
+                this.error_mobile = true
+                this.error_mobile_message = '请输入正确的手机号'
+            }
+
         },
         // 表单提交
         on_submit(){
@@ -60,7 +111,33 @@ var vm = new Vue({
                 // 不满足注册条件：禁用表单
                 window.event.returnValue = false;
             }
+        },
+        //生成uuid
+        generateUUID: function () {
+            var d = new Date().getTime();
+            if (window.performance && typeof window.performance.now === "function") {
+                d += performance.now(); //use high-precision timer if available
+            }
+            var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = (d + Math.random() * 16) % 16 | 0;
+                d = Math.floor(d / 16);
+                return (c == 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+            });
+            return uuid;
+        },
+        creat_image:function(){
+            this.uuid = this.generateUUID()
+            this.image_code_url = this.host+"/images?uuid="+this.uuid
+            console.log("uuid:"+this.uuid+'\n url='+this.image_code_url)
         }
+
+
+    },
+    //Mounted( 挂载后)
+    // 此时模板已经被渲染成真实DOM，用户已经可以看到渲染完成的页面，页面的数据也是通过双向绑定显示data中的数据。 这实例创建期间的最后一个生命周期函数，当执行完 mounted 就表示，实例已经被完全创建好了，此时，如果没有其它操作的话，这个实例，就静静的躺在我们的内存中，一动不动。
+    //注意是小写的方法
+    mounted:function (){
+        this.creat_image()
     }
 })
 
