@@ -38,15 +38,6 @@ var vm = new Vue({
 
     methods : {
         register:function (){
-            // alert(this.username+this.allow)
-            axios.post(url, {
-                username: "",
-                password: ""
-            }).then(respose =>{
-                console.log(respose)
-            }).catch(error =>{
-                console.log(error)
-            })
         },
         //检查用户名
         check_username:function (){
@@ -99,18 +90,7 @@ var vm = new Vue({
         },
         // 表单提交
         on_submit(){
-            this.check_username();
-            this.check_password();
-            this.check_password2();
-            this.check_mobile();
-            // this.check_sms_code();
-            this.check_allow();
 
-            if (this.error_name == true || this.error_password == true || this.error_check_password == true
-                || this.error_phone == true || this.error_sms_code == true || this.error_allow == true) {
-                // 不满足注册条件：禁用表单
-                window.event.returnValue = false;
-            }
         },
         //生成uuid
         generateUUID: function () {
