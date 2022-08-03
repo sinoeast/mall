@@ -186,7 +186,7 @@ LOGGING = {
     'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
     'formatters': {  # 日志信息显示的格式
         'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(lineno)d %(message)s'
+            'format': '%(levelname)s %(asctime)s %(filename)s %(module)s %(lineno)d %(message)s'
         },
         'simple': {
             'format': '%(levelname)s %(module)s %(lineno)d %(message)s'

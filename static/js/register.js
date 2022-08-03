@@ -32,13 +32,14 @@ var vm = new Vue({
 // 引用host.js 全局变量
         host: host,
         uuid:"",
-        image_code_url:""
+        image_code_url:"",
+        sms_code_tip: '获取短信验证码',
 
     },
 
     methods : {
-        register:function (){
-        },
+        // register:function (){
+        // },
         //检查用户名
         check_username:function (){
             let re = /^[0-9A-Za-z]{5,20}$/
@@ -89,9 +90,9 @@ var vm = new Vue({
 
         },
         // 表单提交
-        on_submit(){
-
-        },
+        // on_submit(){
+        //
+        // },
         //生成uuid
         generateUUID: function () {
             var d = new Date().getTime();
@@ -105,15 +106,48 @@ var vm = new Vue({
             });
             return uuid;
         },
+        //创建验证码
         creat_image:function(){
             this.uuid = this.generateUUID()
             this.image_code_url = this.host+"/images?uuid="+this.uuid
             console.log("uuid:"+this.uuid+'\n url='+this.image_code_url)
-        }
-
-
+        },
+        send_sms_code:function (){
+            url = this.host + "/send_sms_code?uuid="+this.uuid+"&mobile="+this.mobile+"&pic_code="+this.pic_code
+            axios.get(url).then(response=>{
+                    if (response.data.code == '0') {
+                        // 倒计时60秒，60秒后允许用户再次点击发送短信验证码的按钮
+                        var num = 60;
+                        // 设置一个计时器
+                        var t = setInterval(() => {
+                            if (num == 1) {
+                                // 如果计时器到最后, 清除计时器对象
+                                clearInterval(t);
+                                // 将点击获取验证码的按钮展示的文本回复成原始文本
+                                this.sms_code_tip = '获取短信验证码';
+                                // 将点击按钮的onclick事件函数恢复回去
+                                this.sending_flag = false;
+                            } else {
+                                num -= 1;
+                                // 展示倒计时信息
+                                this.sms_code_tip = num + '秒';
+                            }
+                        }, 1000, 60)
+                    } else {
+                        if (response.data.code == '4001') {
+                            this.error_image_code_message = response.data.errmsg;
+                            this.error_image_code = true;
+                        } else { // 4002
+                            this.error_sms_code_message = response.data.errmsg;
+                            this.error_sms_code = true;
+                        }
+                        this.creat_image();
+                        this.sending_flag = false;
+                }
+            }).catch()
+        },
     },
-    //Mounted( 挂载后)
+    //Mounted( 生命周期：挂载后)
     // 此时模板已经被渲染成真实DOM，用户已经可以看到渲染完成的页面，页面的数据也是通过双向绑定显示data中的数据。 这实例创建期间的最后一个生命周期函数，当执行完 mounted 就表示，实例已经被完全创建好了，此时，如果没有其它操作的话，这个实例，就静静的躺在我们的内存中，一动不动。
     //注意是小写的方法
     mounted:function (){

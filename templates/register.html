@@ -25,7 +25,7 @@
 			</div>
 			<div class="reg_form clearfix">
 {#                默认请求当前地址 请求方式自定义 可以不用定义ajax#}
-				<form action="" method="post" class="register_form" @submit="on_submit">
+				<form action="" method="post" class="register_form" submit="on_submit">
                     {{ csrf_input }}
 				<ul>
 					<li>
@@ -55,10 +55,16 @@
                         <img :src="image_code_url" @click="creat_image" alt="图形验证码" class="pic_code">
                         <span class="error_tip" v-if="error_image_code">[[error_image_code_message]]</span>
                     </li>
+{#                    <li>#}
+{#                        <label>短信验证码:</label>#}
+{#                        <input type="text" v-model="sms_code" @blur="check_sms_code" name="sms_code" id="msg_code" class="msg_input">#}
+{#                        <a @click="send_sms_code" class="get_msg_code">[[ sms_code_tip ]]</a>#}
+{#                        <span class="error_tip" v-show="error_sms_code">[[ error_sms_code_message ]]</span>#}
+{#                    </li>#}
 					<li>
 						<label>短信验证码:</label>
 						<input type="text" name="sms_code" id="msg_code" class="msg_input" v-model="sms_code">
-						<a href="javascript:;" class="get_msg_code">获取短信验证码</a>
+						<a  class="get_msg_code" @click="send_sms_code">[[ sms_code_tip ]]</a>
 						<span class="error_tip" v-if="error_sms_code">[[error_sms_code_message]]</span>
 					</li>
 					<li class="agreement">
@@ -67,7 +73,7 @@
 						<span class="error_tip" v-if="error_allow">[[error_allow_message]]</span>
 					</li>
 					<li class="reg_sub">
-						<input type="submit" value="注 册" @Click="register">
+						<input type="submit" value="注 册" Click="register">
 					</li>
 				</ul>
 				</form>
