@@ -180,6 +180,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 适配使用ORM user继承
 AUTH_USER_MODEL = 'users.User'
+# 未登录后的重定向
+LOGIN_URL = '/login'
+
 # 日志
 LOGGING = {
     'version': 1,

@@ -1,449 +1,70 @@
-INFO 2022-07-31 22:11:39,580 autoreload 677 Watching for file changes with StatReloader
-WARNING 2022-07-31 22:11:41,139 log 241 Not Found: /
-WARNING 2022-07-31 22:11:41,140 basehttp 187 "GET / HTTP/1.1" 404 2163
-WARNING 2022-07-31 22:11:41,236 log 241 Not Found: /favicon.ico
-WARNING 2022-07-31 22:11:41,236 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
-WARNING 2022-07-31 22:12:02,024 log 241 Not Found: /register
-WARNING 2022-07-31 22:12:02,025 basehttp 187 "GET /register HTTP/1.1" 404 2205
-INFO 2022-07-31 22:12:10,198 basehttp 187 "GET /users/register HTTP/1.1" 301 0
-INFO 2022-07-31 22:12:10,210 basehttp 187 "GET /users/register/ HTTP/1.1" 200 4889
-WARNING 2022-07-31 22:12:10,232 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1807
-WARNING 2022-07-31 22:12:10,232 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1825
-INFO 2022-07-31 22:12:10,450 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 638
-INFO 2022-07-31 22:12:10,451 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 39722
-WARNING 2022-07-31 22:12:10,462 basehttp 187 "GET /static/js/common.js HTTP/1.1" 404 1795
-WARNING 2022-07-31 22:12:10,462 basehttp 187 "GET /static/js/host.js HTTP/1.1" 404 1789
-INFO 2022-07-31 22:12:10,463 basehttp 187 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
-INFO 2022-07-31 22:12:10,463 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
-INFO 2022-07-31 22:12:10,464 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
-WARNING 2022-07-31 22:12:10,464 basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 1801
-INFO 2022-07-31 22:12:10,466 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
-INFO 2022-07-31 22:12:10,467 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
-INFO 2022-07-31 22:13:14,867 autoreload 677 Watching for file changes with StatReloader
-WARNING 2022-07-31 22:13:17,178 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:17,179 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:18,091 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:18,091 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:18,160 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:18,160 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:18,964 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:18,965 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:26,856 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:26,857 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:30,223 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:30,224 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:44,178 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:44,180 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-INFO 2022-07-31 22:13:52,111 basehttp 187 "GET /users/register HTTP/1.1" 200 3192
-WARNING 2022-07-31 22:13:52,126 log 241 Not Found: /users/css/reset.css
-WARNING 2022-07-31 22:13:52,127 basehttp 187 "GET /users/css/reset.css HTTP/1.1" 404 2310
-WARNING 2022-07-31 22:13:52,139 log 241 Not Found: /users/css/main.css
-WARNING 2022-07-31 22:13:52,142 log 241 Not Found: /users/js/host.js
-WARNING 2022-07-31 22:13:52,142 log 241 Not Found: /users/images/pic_code.jpg
-WARNING 2022-07-31 22:13:52,142 basehttp 187 "GET /users/css/main.css HTTP/1.1" 404 2307
-WARNING 2022-07-31 22:13:52,145 log 241 Not Found: /users/js/common.js
-WARNING 2022-07-31 22:13:52,146 basehttp 187 "GET /users/js/host.js HTTP/1.1" 404 2301
-WARNING 2022-07-31 22:13:52,146 basehttp 187 "GET /users/images/pic_code.jpg HTTP/1.1" 404 2328
-WARNING 2022-07-31 22:13:52,147 log 241 Not Found: /users/js/register.js
-WARNING 2022-07-31 22:13:52,147 basehttp 187 "GET /users/js/common.js HTTP/1.1" 404 2307
-WARNING 2022-07-31 22:13:52,148 log 241 Not Found: /users/images/logo.png
-WARNING 2022-07-31 22:13:52,148 basehttp 187 "GET /users/js/register.js HTTP/1.1" 404 2313
-WARNING 2022-07-31 22:13:52,149 basehttp 187 "GET /users/images/logo.png HTTP/1.1" 404 2316
-WARNING 2022-07-31 22:13:59,732 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:13:59,732 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-WARNING 2022-07-31 22:13:59,838 log 241 Not Found: /favicon.ico
-WARNING 2022-07-31 22:13:59,839 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
-WARNING 2022-07-31 22:14:47,850 log 241 Not Found: /users/register/
-WARNING 2022-07-31 22:14:47,851 basehttp 187 "GET /users/register/ HTTP/1.1" 404 2298
-INFO 2022-07-31 22:14:59,389 autoreload 266 C:\Users\sinoeast\Desktop\mall\apps\users\urls.py changed, reloading.
-INFO 2022-07-31 22:14:59,796 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-07-31 22:15:03,688 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3192
-WARNING 2022-07-31 22:15:03,726 log 241 Not Found: /users/register/css/reset.css
-WARNING 2022-07-31 22:15:03,728 log 241 Not Found: /users/register/js/common.js
-WARNING 2022-07-31 22:15:03,728 log 241 Not Found: /users/register/js/host.js
-WARNING 2022-07-31 22:15:03,729 log 241 Not Found: /users/register/js/register.js
-WARNING 2022-07-31 22:15:03,730 log 241 Not Found: /users/register/images/logo.png
-WARNING 2022-07-31 22:15:03,730 basehttp 187 "GET /users/register/css/reset.css HTTP/1.1" 404 2338
-WARNING 2022-07-31 22:15:03,730 log 241 Not Found: /users/register/css/main.css
-WARNING 2022-07-31 22:15:03,731 basehttp 187 "GET /users/register/js/common.js HTTP/1.1" 404 2335
-WARNING 2022-07-31 22:15:03,731 basehttp 187 "GET /users/register/js/host.js HTTP/1.1" 404 2329
-WARNING 2022-07-31 22:15:03,731 basehttp 187 "GET /users/register/js/register.js HTTP/1.1" 404 2341
-WARNING 2022-07-31 22:15:03,732 basehttp 187 "GET /users/register/images/logo.png HTTP/1.1" 404 2344
-WARNING 2022-07-31 22:15:03,734 basehttp 187 "GET /users/register/css/main.css HTTP/1.1" 404 2335
-WARNING 2022-07-31 22:15:03,736 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:15:03,736 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-07-31 22:15:29,351 log 241 Not Found: /users/register/css/reset.css
-WARNING 2022-07-31 22:15:29,351 log 241 Not Found: /users/register/css/main.css
-WARNING 2022-07-31 22:15:29,352 basehttp 187 "GET /users/register/css/reset.css HTTP/1.1" 404 2338
-WARNING 2022-07-31 22:15:29,352 basehttp 187 "GET /users/register/css/main.css HTTP/1.1" 404 2335
-WARNING 2022-07-31 22:15:43,000 log 241 Not Found: /users/register/css/reset.css
-WARNING 2022-07-31 22:15:43,000 basehttp 187 "GET /users/register/css/reset.css HTTP/1.1" 404 2338
-INFO 2022-07-31 22:16:54,907 autoreload 677 Watching for file changes with StatReloader
-ERROR 2022-07-31 22:16:56,951 log 241 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\apps\users\views.py", line 14, in get
-    return render(request, 'register.html')
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 76, in render
-    return self.template.render(context)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
-    self.environment.handle_exception()
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "C:\Users\sinoeast\Desktop\mall\templates\register.html", line 6, in top-level template code
-    <link rel="stylesheet" type="text/css" href={{ static(css/reset.css) }}>
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
-    return getattr(obj, attribute)
-jinja2.exceptions.UndefinedError: 'reset' is undefined
-ERROR 2022-07-31 22:16:56,955 basehttp 187 "GET /users/register/ HTTP/1.1" 500 112477
-ERROR 2022-07-31 22:16:59,387 log 241 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\apps\users\views.py", line 14, in get
-    return render(request, 'register.html')
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 76, in render
-    return self.template.render(context)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
-    self.environment.handle_exception()
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "C:\Users\sinoeast\Desktop\mall\templates\register.html", line 6, in top-level template code
-    <link rel="stylesheet" type="text/css" href={{ static(css/reset.css) }}>
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
-    return getattr(obj, attribute)
-jinja2.exceptions.UndefinedError: 'reset' is undefined
-ERROR 2022-07-31 22:16:59,398 basehttp 187 "GET /users/register/ HTTP/1.1" 500 112477
-ERROR 2022-07-31 22:16:59,979 log 241 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\sinoeast\Desktop\mall\apps\users\views.py", line 14, in get
-    return render(request, 'register.html')
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 76, in render
-    return self.template.render(context)
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
-    self.environment.handle_exception()
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "C:\Users\sinoeast\Desktop\mall\templates\register.html", line 6, in top-level template code
-    <link rel="stylesheet" type="text/css" href={{ static(css/reset.css) }}>
-  File "C:\Users\sinoeast\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 485, in getattr
-    return getattr(obj, attribute)
-jinja2.exceptions.UndefinedError: 'reset' is undefined
-ERROR 2022-07-31 22:16:59,990 basehttp 187 "GET /users/register/ HTTP/1.1" 500 112477
-INFO 2022-07-31 22:17:16,616 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-07-31 22:17:18,317 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3198
-WARNING 2022-07-31 22:17:18,359 log 241 Not Found: /users/register/js/register.js
-WARNING 2022-07-31 22:17:18,360 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:17:18,361 log 241 Not Found: /users/register/css/main.css
-WARNING 2022-07-31 22:17:18,361 log 241 Not Found: /users/register/images/logo.png
-WARNING 2022-07-31 22:17:18,362 log 241 Not Found: /users/register/js/common.js
-WARNING 2022-07-31 22:17:18,362 log 241 Not Found: /users/register/js/host.js
-WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/js/register.js HTTP/1.1" 404 2341
-WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/css/main.css HTTP/1.1" 404 2335
-WARNING 2022-07-31 22:17:18,363 basehttp 187 "GET /users/register/images/logo.png HTTP/1.1" 404 2344
-WARNING 2022-07-31 22:17:18,364 basehttp 187 "GET /users/register/js/common.js HTTP/1.1" 404 2335
-WARNING 2022-07-31 22:17:18,364 basehttp 187 "GET /users/register/js/host.js HTTP/1.1" 404 2329
-INFO 2022-07-31 22:19:37,679 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-07-31 22:19:39,818 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3228
-WARNING 2022-07-31 22:19:39,849 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:19:39,850 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:19:40,199 basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 0
-INFO 2022-07-31 22:19:40,199 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 0
-INFO 2022-07-31 22:19:40,199 basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 0
-INFO 2022-07-31 22:25:43,465 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-07-31 22:25:45,861 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:45,881 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-07-31 22:25:45,883 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:45,887 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:45,887 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:46,044 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 124
-INFO 2022-07-31 22:25:47,028 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:47,043 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:47,044 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:47,044 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:47,640 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:47,655 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:47,656 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:47,656 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:47,817 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:47,832 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:47,833 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:47,834 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:47,925 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:47,942 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:47,943 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:47,944 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:47,976 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:47,993 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:47,994 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:47,994 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:53,326 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:53,342 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:53,342 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:53,343 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:53,705 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-WARNING 2022-07-31 22:25:53,720 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:53,721 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:53,841 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-WARNING 2022-07-31 22:25:53,857 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:53,858 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:53,886 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-WARNING 2022-07-31 22:25:53,903 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:53,903 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:54,014 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-WARNING 2022-07-31 22:25:54,030 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:54,031 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:54,177 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:25:54,194 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:25:54,195 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:54,195 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:25:54,319 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-WARNING 2022-07-31 22:25:54,335 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:25:54,336 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:27:13,206 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:27:13,221 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-07-31 22:27:13,221 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:27:13,223 log 241 Not Found: /users/register/images/pic_code.jpg
-INFO 2022-07-31 22:27:13,223 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 147
-WARNING 2022-07-31 22:27:13,223 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:27:14,355 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:27:14,370 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:27:14,371 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:27:14,372 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:27:14,690 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:27:14,705 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:27:14,706 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:27:14,706 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:27:14,846 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:27:14,862 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:27:14,863 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:27:14,863 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-07-31 22:27:18,155 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-07-31 22:27:18,170 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-07-31 22:27:18,171 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-07-31 22:27:18,172 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 15:26:17,089 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 15:26:57,798 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 15:29:54,451 autoreload 266 C:\Users\hs\Desktop\mall\mall\settings.py changed, reloading.
-INFO 2022-08-01 15:30:01,019 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 15:32:39,206 autoreload 266 C:\Users\hs\Desktop\mall\mall\settings.py changed, reloading.
-INFO 2022-08-01 15:32:42,993 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 15:36:03,944 autoreload 677 Watching for file changes with StatReloader
-WARNING 2022-08-01 15:36:06,625 log 241 Not Found: /
-WARNING 2022-08-01 15:36:06,628 basehttp 187 "GET / HTTP/1.1" 404 2163
-WARNING 2022-08-01 15:36:07,726 log 241 Not Found: /favicon.ico
-WARNING 2022-08-01 15:36:07,729 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
-WARNING 2022-08-01 15:36:14,524 log 241 Not Found: /users
-WARNING 2022-08-01 15:36:14,528 basehttp 187 "GET /users HTTP/1.1" 404 2196
-INFO 2022-08-01 15:36:30,307 basehttp 187 "GET /users/register HTTP/1.1" 301 0
-INFO 2022-08-01 15:36:30,393 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-08-01 15:36:30,743 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
-INFO 2022-08-01 15:36:30,754 basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 0
-INFO 2022-08-01 15:36:30,757 basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 0
-WARNING 2022-08-01 15:36:30,768 log 241 Not Found: /users/register/images/pic_code.jpg
-INFO 2022-08-01 15:36:30,779 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 147
-WARNING 2022-08-01 15:36:30,780 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 15:36:30,780 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
-INFO 2022-08-01 15:36:30,781 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
-INFO 2022-08-01 15:36:30,823 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
-INFO 2022-08-01 15:36:30,823 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
-INFO 2022-08-01 15:36:30,824 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
-INFO 2022-08-01 15:48:53,190 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 15:49:22,057 basehttp 187 "GET /admin/ HTTP/1.1" 302 0
-INFO 2022-08-01 15:49:22,382 basehttp 187 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2217
-INFO 2022-08-01 15:49:22,688 basehttp 187 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
-INFO 2022-08-01 15:49:22,689 basehttp 187 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
-INFO 2022-08-01 15:49:22,689 basehttp 187 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
-INFO 2022-08-01 15:49:22,690 basehttp 187 "GET /static/admin/css/login.css HTTP/1.1" 200 954
-INFO 2022-08-01 15:49:22,691 basehttp 187 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
-INFO 2022-08-01 15:49:22,795 basehttp 187 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
-INFO 2022-08-01 15:49:22,893 basehttp 187 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
-INFO 2022-08-01 15:49:22,895 basehttp 187 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
-WARNING 2022-08-01 15:49:22,960 log 241 Not Found: /favicon.ico
-WARNING 2022-08-01 15:49:22,964 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
-WARNING 2022-08-01 15:49:40,777 log 241 Not Found: /user/register
-WARNING 2022-08-01 15:49:40,778 basehttp 187 "GET /user/register HTTP/1.1" 404 2220
-INFO 2022-08-01 15:49:46,042 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3289
-INFO 2022-08-01 15:49:46,085 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,106 basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,108 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,109 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,111 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,113 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
-WARNING 2022-08-01 15:49:46,116 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 15:49:46,121 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 15:49:46,130 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,136 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
-INFO 2022-08-01 15:49:46,137 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:38,876 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 15:54:40,945 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3457
-INFO 2022-08-01 15:54:41,094 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,108 basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,238 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
-INFO 2022-08-01 15:54:41,248 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
-INFO 2022-08-01 15:54:41,251 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,266 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,280 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,329 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,350 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,351 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
-INFO 2022-08-01 15:54:41,352 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
-WARNING 2022-08-01 15:54:41,448 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 15:54:41,450 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-WARNING 2022-08-01 15:54:41,452 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 15:56:12,877 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3457
-INFO 2022-08-01 15:56:13,127 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
-INFO 2022-08-01 15:56:13,144 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
-INFO 2022-08-01 15:56:13,148 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
-INFO 2022-08-01 15:56:13,151 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
-INFO 2022-08-01 15:56:13,157 basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
-INFO 2022-08-01 15:56:13,163 basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
-INFO 2022-08-01 15:56:13,175 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 8027
-INFO 2022-08-01 15:56:13,179 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
-INFO 2022-08-01 15:56:13,184 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
-INFO 2022-08-01 15:56:13,187 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
-INFO 2022-08-01 15:56:13,187 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
-WARNING 2022-08-01 15:56:13,189 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 15:56:13,190 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 15:56:17,190 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 15:57:20,898 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3508
-WARNING 2022-08-01 15:57:20,964 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 15:57:20,968 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 15:57:21,209 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 15:57:47,129 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3508
-WARNING 2022-08-01 15:57:47,646 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 15:57:47,648 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 15:57:51,313 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 15:58:18,025 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3508
-WARNING 2022-08-01 15:58:18,065 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 15:58:18,067 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 15:58:18,283 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 15:58:53,357 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3508
-INFO 2022-08-01 15:58:53,401 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
-INFO 2022-08-01 15:58:53,409 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
-INFO 2022-08-01 15:58:53,425 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
-INFO 2022-08-01 15:58:53,436 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
-INFO 2022-08-01 15:58:53,443 basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
-INFO 2022-08-01 15:58:53,450 basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
-INFO 2022-08-01 15:58:53,487 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 8027
-INFO 2022-08-01 15:58:53,504 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
-INFO 2022-08-01 15:58:53,530 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
-INFO 2022-08-01 15:58:53,550 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
-WARNING 2022-08-01 15:58:53,563 log 241 Not Found: /users/register/images/pic_code.jpg
-INFO 2022-08-01 15:58:53,563 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
-WARNING 2022-08-01 15:58:53,566 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 15:58:54,061 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 16:06:22,650 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:06:29,392 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3632
-INFO 2022-08-01 16:06:29,559 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,563 basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,575 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,578 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,587 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,593 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,637 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,638 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,640 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:06:29,642 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
-WARNING 2022-08-01 16:06:29,670 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:06:29,672 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:06:29,728 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 9011
-WARNING 2022-08-01 16:06:29,978 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:06:29,980 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:06:33,828 log 241 Forbidden (CSRF cookie not set.): /users/register/
-WARNING 2022-08-01 16:06:33,839 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2801
-INFO 2022-08-01 16:07:20,058 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:07:23,574 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3632
-WARNING 2022-08-01 16:07:23,691 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:07:23,693 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:07:23,728 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 9022
-WARNING 2022-08-01 16:07:23,744 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:07:23,746 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:07:29,444 log 241 Forbidden (CSRF cookie not set.): /users/register/
-WARNING 2022-08-01 16:07:29,449 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2801
-WARNING 2022-08-01 16:07:36,485 log 241 Forbidden (CSRF cookie not set.): /users/register/
-WARNING 2022-08-01 16:07:36,488 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2801
-INFO 2022-08-01 16:36:26,280 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:36:45,429 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3770
-INFO 2022-08-01 16:36:45,527 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,527 basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,527 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,541 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,546 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,547 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,567 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,569 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,570 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:36:45,579 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
-WARNING 2022-08-01 16:36:45,596 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:36:45,598 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:36:45,646 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 10217
-WARNING 2022-08-01 16:36:45,824 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:36:45,827 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:36:45,889 log 241 Not Found: /favicon.ico
-WARNING 2022-08-01 16:36:45,896 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
-INFO 2022-08-01 16:38:08,744 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:38:18,479 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3792
-WARNING 2022-08-01 16:38:18,661 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:38:18,665 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:38:18,691 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 10299
-WARNING 2022-08-01 16:38:18,733 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:38:18,734 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:41:35,579 autoreload 677 Watching for file changes with StatReloader
-ERROR 2022-08-01 16:41:39,992 log 241 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 42, in get_template
-    return Template(self.env.get_template(template_name), self)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
-    return self._load_template(name, globals)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
-    template = self.loader.load(self, name, self.make_globals(globals))
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
-    code = environment.compile(source, name, filename)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
-    self.handle_exception(source=source_hint)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "C:\Users\hs\Desktop\mall\templates\register.html", line 12, in template
-    {% csrf_token %}
-jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'csrf_token'.
+INFO 2022-08-03 10:55:33,501 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f39e9ca7-f612-4c7a-9998-f56c0788f852&mobile=15857174755&pic_code=1231 HTTP/1.1" 200 64
+INFO 2022-08-03 10:56:41,453 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f39e9ca7-f612-4c7a-9998-f56c0788f852&mobile=15857174755&pic_code=1231 HTTP/1.1" 200 64
+INFO 2022-08-03 10:56:42,219 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 10:56:46,562 autoreload.py autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-08-03 10:56:47,964 views.py views 50 验证码过期
+INFO 2022-08-03 10:56:47,968 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f39e9ca7-f612-4c7a-9998-f56c0788f852&mobile=15857174755&pic_code=1231 HTTP/1.1" 200 64
+ERROR 2022-08-03 10:56:49,383 views.py views 50 验证码过期
+INFO 2022-08-03 10:56:49,385 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f39e9ca7-f612-4c7a-9998-f56c0788f852&mobile=15857174755&pic_code=1231 HTTP/1.1" 200 64
+ERROR 2022-08-03 10:56:53,286 views.py views 50 验证码过期
+INFO 2022-08-03 10:56:53,292 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f39e9ca7-f612-4c7a-9998-f56c0788f852&mobile=15857174755&pic_code=1231 HTTP/1.1" 200 64
+INFO 2022-08-03 10:58:34,573 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 10:58:34,683 log.py log 241 Not Found: /static/js/register.js
+WARNING 2022-08-03 10:58:34,687 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 179
+WARNING 2022-08-03 10:58:34,740 log.py log 241 Not Found: /static/js/axios.min.map
+WARNING 2022-08-03 10:58:34,742 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 179
+INFO 2022-08-03 10:58:39,070 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 10:58:39,099 log.py log 241 Not Found: /static/js/register.js
+WARNING 2022-08-03 10:58:39,102 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 179
+WARNING 2022-08-03 10:58:39,177 log.py log 241 Not Found: /static/js/axios.min.map
+WARNING 2022-08-03 10:58:39,179 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 179
+INFO 2022-08-03 10:58:41,229 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 10:58:41,261 log.py log 241 Not Found: /static/js/register.js
+WARNING 2022-08-03 10:58:41,266 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 179
+WARNING 2022-08-03 10:58:41,299 log.py log 241 Not Found: /static/js/axios.min.map
+WARNING 2022-08-03 10:58:41,301 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 179
+INFO 2022-08-03 10:59:12,859 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 10:59:13,041 log.py log 241 Not Found: /static/css/reset.css
+WARNING 2022-08-03 10:59:13,054 log.py log 241 Not Found: /static/css/main.css
+WARNING 2022-08-03 10:59:13,065 log.py log 241 Not Found: /static/js/vue-2.5.16.js
+WARNING 2022-08-03 10:59:13,065 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:13,067 log.py log 241 Not Found: /static/js/axios-0.18.0.min.js
+WARNING 2022-08-03 10:59:13,068 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:13,069 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 179
+INFO 2022-08-03 10:59:13,071 basehttp.py basehttp 80 - Broken pipe from ('127.0.0.1', 54660)
 
-The above exception was the direct cause of the following exception:
-
+WARNING 2022-08-03 10:59:13,073 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:13,083 log.py log 241 Not Found: /static/js/host.js
+WARNING 2022-08-03 10:59:13,084 log.py log 241 Not Found: /static/js/register.js
+WARNING 2022-08-03 10:59:13,089 log.py log 241 Not Found: /static/images/logo.png
+WARNING 2022-08-03 10:59:13,093 log.py log 241 Not Found: /static/js/common.js
+WARNING 2022-08-03 10:59:13,095 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:13,096 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:13,097 basehttp.py basehttp 187 "GET /static/images/logo.png HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:13,099 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 404 179
+INFO 2022-08-03 10:59:30,956 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 10:59:32,563 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 10:59:32,685 log.py log 241 Not Found: /static/js/axios.min.map
+WARNING 2022-08-03 10:59:32,687 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 179
+WARNING 2022-08-03 10:59:32,692 log.py log 241 Not Found: /static/js/register.js
+WARNING 2022-08-03 10:59:32,693 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 404 179
+INFO 2022-08-03 11:00:26,988 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:00:31,255 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 11:00:31,424 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 11:00:31,458 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 13796
+INFO 2022-08-03 11:00:31,712 basehttp.py basehttp 187 "GET /images?uuid=adabac4a-cec1-4c86-a50a-00413fc043f5 HTTP/1.1" 200 3295
+INFO 2022-08-03 11:00:34,286 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 11:00:34,737 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-03 11:00:41,601 views.py views 58 验证码错误
+INFO 2022-08-03 11:00:41,607 basehttp.py basehttp 187 "GET /send_sms_code?uuid=adabac4a-cec1-4c86-a50a-00413fc043f5&mobile=15857174755&pic_code=VRDS HTTP/1.1" 200 64
+INFO 2022-08-03 11:01:02,366 basehttp.py basehttp 187 "GET /images?uuid=62fb9e25-7d21-423d-8968-d394095eb7f2 HTTP/1.1" 200 3365
+INFO 2022-08-03 11:02:57,336 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:03:00,385 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+WARNING 2022-08-03 11:03:00,558 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 11:03:00,800 basehttp.py basehttp 187 "GET /images?uuid=f4471323-0424-419e-a2bb-85c19175f1c0 HTTP/1.1" 200 3221
+INFO 2022-08-03 11:03:06,710 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 11:03:07,298 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-03 11:03:07,645 log.py log 241 Internal Server Error: /send_sms_code
 Traceback (most recent call last):
   File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
@@ -453,39 +74,14 @@ Traceback (most recent call last):
     return self.dispatch(request, *args, **kwargs)
   File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
     return handler(request, *args, **kwargs)
-  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 14, in get
-    return render(request, 'register.html')
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 48, in get_template
-    raise new from exc
-django.template.exceptions.TemplateSyntaxError: ("Encountered unknown tag 'csrf_token'.",)
-ERROR 2022-08-01 16:41:40,007 basehttp 187 "GET /users/register/ HTTP/1.1" 500 156393
-INFO 2022-08-01 16:42:01,251 autoreload 677 Watching for file changes with StatReloader
-ERROR 2022-08-01 16:42:03,949 log 241 Internal Server Error: /users/register/
-Traceback (most recent call last):
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 42, in get_template
-    return Template(self.env.get_template(template_name), self)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
-    return self._load_template(name, globals)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
-    template = self.loader.load(self, name, self.make_globals(globals))
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
-    code = environment.compile(source, name, filename)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
-    self.handle_exception(source=source_hint)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "C:\Users\hs\Desktop\mall\templates\register.html", line 12, in template
-    {% csrf_input %}
-jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'csrf_input'.
-
-The above exception was the direct cause of the following exception:
-
+  File "C:\Users\hs\Desktop\mall\apps\verifications\views.py", line 63, in get
+    mobile_code = ["%06d" % range(0, 999999)]
+TypeError: %d format: a real number is required, not range
+ERROR 2022-08-03 11:03:07,658 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f4471323-0424-419e-a2bb-85c19175f1c0&mobile=15857174755&pic_code=qupg HTTP/1.1" 500 85020
+INFO 2022-08-03 11:03:47,273 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 11:03:51,787 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:04:17,417 basehttp.py basehttp 187 "GET /images?uuid=1c3bf0c8-f540-4278-920a-02633628d786 HTTP/1.1" 200 3042
+ERROR 2022-08-03 11:04:30,157 log.py log 241 Internal Server Error: /send_sms_code
 Traceback (most recent call last):
   File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
@@ -495,98 +91,950 @@ Traceback (most recent call last):
     return self.dispatch(request, *args, **kwargs)
   File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
     return handler(request, *args, **kwargs)
-  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 14, in get
-    return render(request, 'register.html')
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\template\backends\jinja2.py", line 48, in get_template
-    raise new from exc
-django.template.exceptions.TemplateSyntaxError: ("Encountered unknown tag 'csrf_input'.",)
-ERROR 2022-08-01 16:42:03,967 basehttp 187 "GET /users/register/ HTTP/1.1" 500 156393
-INFO 2022-08-01 16:42:48,610 autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
-INFO 2022-08-01 16:42:51,973 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:43:21,154 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:43:24,451 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3914
-INFO 2022-08-01 16:43:24,580 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-08-01 16:43:24,596 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:43:24,598 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:43:24,728 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:43:24,733 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:43:28,612 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 16:44:24,145 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3914
-INFO 2022-08-01 16:44:24,215 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-WARNING 2022-08-01 16:44:24,260 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:44:24,262 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:46:26,207 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:46:35,893 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3934
-INFO 2022-08-01 16:46:35,944 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:35,944 basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:35,945 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:35,988 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:35,994 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:36,023 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:36,046 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:36,079 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:36,081 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:46:36,101 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
-WARNING 2022-08-01 16:46:36,189 log 241 Not Found: /users/register/images/pic_code.jpg
-INFO 2022-08-01 16:46:36,193 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 10914
-WARNING 2022-08-01 16:46:36,224 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:46:50,459 log 241 Forbidden (CSRF token missing.): /users/register/
-WARNING 2022-08-01 16:46:50,469 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2501
-INFO 2022-08-01 16:48:21,000 autoreload 677 Watching for file changes with StatReloader
-WARNING 2022-08-01 16:48:42,866 log 241 Forbidden (CSRF token missing.): /users/register/
-WARNING 2022-08-01 16:48:42,874 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2501
-WARNING 2022-08-01 16:49:32,221 basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
-INFO 2022-08-01 16:50:28,651 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:50:54,277 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:51:57,208 autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
-INFO 2022-08-01 16:52:00,243 autoreload 677 Watching for file changes with StatReloader
-WARNING 2022-08-01 16:52:16,481 log 241 Forbidden (CSRF token missing.): /users/register/
-WARNING 2022-08-01 16:52:16,482 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2501
-WARNING 2022-08-01 16:52:18,043 log 241 Forbidden (CSRF token missing.): /users/register/
-WARNING 2022-08-01 16:52:18,049 basehttp 187 "POST /users/register/ HTTP/1.1" 403 2501
-INFO 2022-08-01 16:54:01,169 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3955
-INFO 2022-08-01 16:54:01,457 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
-INFO 2022-08-01 16:54:01,459 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
-INFO 2022-08-01 16:54:01,500 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
-INFO 2022-08-01 16:54:01,508 basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
-INFO 2022-08-01 16:54:01,529 basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
-INFO 2022-08-01 16:54:01,534 basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 10914
-INFO 2022-08-01 16:54:01,536 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
-INFO 2022-08-01 16:54:01,557 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
-INFO 2022-08-01 16:54:01,632 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
-INFO 2022-08-01 16:54:01,632 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
-INFO 2022-08-01 16:54:01,635 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
-WARNING 2022-08-01 16:54:01,642 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:54:01,647 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:54:04,704 basehttp 187 "POST /users/register/ HTTP/1.1" 200 3955
-WARNING 2022-08-01 16:54:04,795 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:54:04,802 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:54:07,960 basehttp 187 "POST /users/register/ HTTP/1.1" 200 3955
-WARNING 2022-08-01 16:54:07,999 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:54:08,000 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-INFO 2022-08-01 16:54:30,983 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:55:23,379 autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
-INFO 2022-08-01 16:55:29,451 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:57:28,576 autoreload 677 Watching for file changes with StatReloader
-INFO 2022-08-01 16:57:29,927 basehttp 187 "GET /users/register/ HTTP/1.1" 200 3955
-INFO 2022-08-01 16:57:29,975 basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:29,978 basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:29,991 basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,007 basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,014 basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,021 basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,022 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,035 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,064 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,064 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
-INFO 2022-08-01 16:57:30,066 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
-WARNING 2022-08-01 16:57:30,116 log 241 Not Found: /users/register/images/pic_code.jpg
-WARNING 2022-08-01 16:57:30,119 basehttp 187 "GET /users/register/images/pic_code.jpg HTTP/1.1" 404 2356
-WARNING 2022-08-01 16:57:30,223 log 241 Not Found: /favicon.ico
-WARNING 2022-08-01 16:57:30,235 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2214
+  File "C:\Users\hs\Desktop\mall\apps\verifications\views.py", line 67, in get
+    pip.execute()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2078, in execute
+    return conn.retry.call_with_retry(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2079, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 1922, in _execute_transaction
+    all_cmds = connection.pack_commands(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 895, in pack_commands
+    for chunk in self.pack_command(*cmd):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 858, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 108, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+ERROR 2022-08-03 11:04:30,172 basehttp.py basehttp 187 "GET /send_sms_code?uuid=1c3bf0c8-f540-4278-920a-02633628d786&mobile=15857174755&pic_code=sobu HTTP/1.1" 500 116627
+INFO 2022-08-03 11:05:31,457 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 11:05:36,218 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:07:34,982 basehttp.py basehttp 187 "GET /images?uuid=09deb8ff-53c8-46ed-a4a0-f59a71bddb80 HTTP/1.1" 200 2740
+ERROR 2022-08-03 11:07:41,151 log.py log 241 Internal Server Error: /send_sms_code
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\verifications\views.py", line 67, in get
+    pip.execute()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2078, in execute
+    return conn.retry.call_with_retry(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2079, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 1922, in _execute_transaction
+    all_cmds = connection.pack_commands(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 895, in pack_commands
+    for chunk in self.pack_command(*cmd):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 858, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 108, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+ERROR 2022-08-03 11:07:41,169 basehttp.py basehttp 187 "GET /send_sms_code?uuid=09deb8ff-53c8-46ed-a4a0-f59a71bddb80&mobile=15857174755&pic_code=sfhi HTTP/1.1" 500 117097
+INFO 2022-08-03 11:08:12,179 basehttp.py basehttp 187 "GET /images?uuid=5603d925-2b16-4ce9-be9e-cfadd76663e7 HTTP/1.1" 200 2918
+ERROR 2022-08-03 11:08:21,635 log.py log 241 Internal Server Error: /send_sms_code
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\verifications\views.py", line 67, in get
+    pip.execute()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2078, in execute
+    return conn.retry.call_with_retry(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2079, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 1922, in _execute_transaction
+    all_cmds = connection.pack_commands(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 895, in pack_commands
+    for chunk in self.pack_command(*cmd):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 858, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 108, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+ERROR 2022-08-03 11:08:21,642 basehttp.py basehttp 187 "GET /send_sms_code?uuid=5603d925-2b16-4ce9-be9e-cfadd76663e7&mobile=15857174755&pic_code=7SR6 HTTP/1.1" 500 117097
+INFO 2022-08-03 11:10:25,298 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 11:10:30,184 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:10:57,765 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 11:11:03,251 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:11:05,022 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 11:11:05,182 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-03 11:11:05,238 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 11:11:05,466 basehttp.py basehttp 187 "GET /images?uuid=00d45d0b-ccd1-4a9f-8555-da099c8b434c HTTP/1.1" 200 3051
+INFO 2022-08-03 11:11:11,523 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 11:11:12,233 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 11:11:13,887 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-03 11:11:15,113 log.py log 241 Internal Server Error: /send_sms_code
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\verifications\views.py", line 79, in get
+    pipe.execute()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2078, in execute
+    return conn.retry.call_with_retry(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2079, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 1922, in _execute_transaction
+    all_cmds = connection.pack_commands(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 895, in pack_commands
+    for chunk in self.pack_command(*cmd):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 858, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 108, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+ERROR 2022-08-03 11:11:15,124 basehttp.py basehttp 187 "GET /send_sms_code?uuid=00d45d0b-ccd1-4a9f-8555-da099c8b434c&mobile=15857174755&pic_code=PGSE HTTP/1.1" 500 116910
+INFO 2022-08-03 11:11:30,935 basehttp.py basehttp 187 "GET /images?uuid=f64dedce-a34a-4a7f-ba68-3ce67cac2b66 HTTP/1.1" 200 3463
+ERROR 2022-08-03 11:11:36,710 log.py log 241 Internal Server Error: /send_sms_code
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\verifications\views.py", line 79, in get
+    pipe.execute()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2078, in execute
+    return conn.retry.call_with_retry(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 2079, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\client.py", line 1922, in _execute_transaction
+    all_cmds = connection.pack_commands(
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 895, in pack_commands
+    for chunk in self.pack_command(*cmd):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 858, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\redis\connection.py", line 108, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+ERROR 2022-08-03 11:11:36,718 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f64dedce-a34a-4a7f-ba68-3ce67cac2b66&mobile=15857174755&pic_code=eusg HTTP/1.1" 500 116910
+INFO 2022-08-03 11:14:43,926 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 11:14:48,479 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 11:14:51,459 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 11:14:51,546 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-03 11:14:51,636 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 11:14:51,726 basehttp.py basehttp 187 "GET /images?uuid=fb1175e0-0c41-4ec1-9b92-8317dd571272 HTTP/1.1" 200 3171
+INFO 2022-08-03 11:14:54,050 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 11:14:54,463 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 12:50:22,461 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 12:50:31,108 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+INFO 2022-08-03 12:50:31,601 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2022-08-03 12:50:32,139 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-03 12:50:32,146 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3184
+WARNING 2022-08-03 12:50:40,555 log.py log 241 Not Found: /register.html
+WARNING 2022-08-03 12:50:40,560 basehttp.py basehttp 187 "GET /register.html HTTP/1.1" 404 3184
+INFO 2022-08-03 12:50:47,018 basehttp.py basehttp 187 "GET /register HTTP/1.1" 200 23
+INFO 2022-08-03 12:50:50,014 basehttp.py basehttp 187 "GET /register HTTP/1.1" 200 23
+INFO 2022-08-03 12:51:56,448 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 12:51:56,589 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-03 12:51:56,925 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 12:51:57,014 basehttp.py basehttp 187 "GET /images?uuid=b26637be-3460-4e4f-a1d4-4ad96ed8c4d1 HTTP/1.1" 200 2940
+INFO 2022-08-03 12:51:59,282 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 12:51:59,725 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 12:52:04,475 basehttp.py basehttp 187 "GET /images?uuid=e55ee481-5f89-4c5b-9115-567a015430fc HTTP/1.1" 200 3171
+INFO 2022-08-03 12:52:10,816 basehttp.py basehttp 187 "GET /send_sms_code?uuid=e55ee481-5f89-4c5b-9115-567a015430fc&mobile=15857174755&pic_code=TWNX HTTP/1.1" 200 29
+INFO 2022-08-03 12:52:46,685 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 12:52:51,341 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:03:24,145 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:03:28,761 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:05:42,649 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:05:46,462 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:09:35,927 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:10:42,109 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\sms\tasks.py changed, reloading.
+INFO 2022-08-03 13:10:46,885 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:11:25,952 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\sms\tasks.py changed, reloading.
+INFO 2022-08-03 13:11:30,943 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:12:02,589 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\sms\tasks.py changed, reloading.
+INFO 2022-08-03 13:12:07,517 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:12:12,795 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:12:12,991 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 15455
+INFO 2022-08-03 13:12:13,124 basehttp.py basehttp 187 "GET /images?uuid=603d40d8-e28b-4a02-bcd7-36cff0795a04 HTTP/1.1" 200 3366
+WARNING 2022-08-03 13:12:13,213 log.py log 241 Not Found: /favicon.ico
+WARNING 2022-08-03 13:12:13,214 basehttp.py basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3178
+INFO 2022-08-03 13:12:15,344 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:12:15,818 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:12:22,237 basehttp.py basehttp 187 "GET /send_sms_code?uuid=603d40d8-e28b-4a02-bcd7-36cff0795a04&mobile=15857174755&pic_code=NREV HTTP/1.1" 200 29
+INFO 2022-08-03 13:15:44,300 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 13:15:49,912 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:16:10,129 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:16:10,213 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:16:10,337 basehttp.py basehttp 187 "GET /images?uuid=5a8020a6-ecbe-43c1-9a08-cdeaa7bf40f8 HTTP/1.1" 200 3279
+INFO 2022-08-03 13:16:12,528 basehttp.py basehttp 187 "GET /images?uuid=4ed7227e-b2ca-44c6-a3f7-01a343b007fc HTTP/1.1" 200 3237
+INFO 2022-08-03 13:16:14,132 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:16:14,731 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:16:20,869 basehttp.py basehttp 187 "GET /send_sms_code?uuid=4ed7227e-b2ca-44c6-a3f7-01a343b007fc&mobile=15857174755&pic_code=68us HTTP/1.1" 200 29
+INFO 2022-08-03 13:18:39,300 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:18:45,215 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:19:55,524 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:20:01,193 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:20:16,869 basehttp.py basehttp 187 "GET /images?uuid=2d980b90-6ce6-4ad7-8603-a69e22c05a3a HTTP/1.1" 200 3220
+INFO 2022-08-03 13:20:22,998 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:20:23,043 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:20:23,090 basehttp.py basehttp 187 "GET /images?uuid=075b6dbf-7f3b-418d-acca-9cf42ff2cf74 HTTP/1.1" 200 3244
+INFO 2022-08-03 13:20:24,864 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:20:25,369 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:20:30,993 basehttp.py basehttp 187 "GET /send_sms_code?uuid=075b6dbf-7f3b-418d-acca-9cf42ff2cf74&mobile=15857174755&pic_code=FZJU HTTP/1.1" 200 29
+INFO 2022-08-03 13:21:19,956 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:21:20,069 basehttp.py basehttp 187 "GET /images?uuid=2d05fd62-8c93-4426-8dc1-56292385ca61 HTTP/1.1" 200 3501
+INFO 2022-08-03 13:21:21,473 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:21:21,550 basehttp.py basehttp 187 "GET /images?uuid=a91125ab-3628-4f6b-80f1-4d2d032ad108 HTTP/1.1" 200 3212
+INFO 2022-08-03 13:21:46,063 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:21:47,100 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:21:47,198 basehttp.py basehttp 187 "GET /images?uuid=c992344b-79cd-4bf2-85eb-90567daa753a HTTP/1.1" 200 3313
+INFO 2022-08-03 13:21:53,794 basehttp.py basehttp 187 "GET /send_sms_code?uuid=c992344b-79cd-4bf2-85eb-90567daa753a&mobile=15857174755&pic_code=XKH6 HTTP/1.1" 200 60
+INFO 2022-08-03 13:22:34,018 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:22:35,221 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:23:08,707 basehttp.py basehttp 187 "GET /images?uuid=f6d2ebbc-1409-4824-8f51-c01fceb5993d HTTP/1.1" 200 3302
+INFO 2022-08-03 13:23:31,838 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f6d2ebbc-1409-4824-8f51-c01fceb5993d&mobile=15857174755&pic_code=ZMXR HTTP/1.1" 200 29
+WARNING 2022-08-03 13:24:39,680 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 13:25:21,527 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:25:21,679 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 15410
+INFO 2022-08-03 13:25:21,789 basehttp.py basehttp 187 "GET /images?uuid=2e60e122-53e5-4094-a597-fb597f45ecf9 HTTP/1.1" 200 3005
+WARNING 2022-08-03 13:25:21,812 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 13:25:24,489 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:25:24,960 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:25:29,316 basehttp.py basehttp 187 "GET /send_sms_code?uuid=2e60e122-53e5-4094-a597-fb597f45ecf9&mobile=15857174755&pic_code=HF73 HTTP/1.1" 200 60
+INFO 2022-08-03 13:27:09,822 basehttp.py basehttp 187 "GET /images?uuid=aea836b3-22d3-4de7-8678-249e3c8fad27 HTTP/1.1" 200 2915
+INFO 2022-08-03 13:27:15,362 basehttp.py basehttp 187 "GET /send_sms_code?uuid=aea836b3-22d3-4de7-8678-249e3c8fad27&mobile=15857174755&pic_code=EGLS HTTP/1.1" 200 29
+INFO 2022-08-03 13:27:55,918 basehttp.py basehttp 187 "GET /images?uuid=7d0c6985-51a4-4ade-ad8c-c279c7432e7a HTTP/1.1" 200 2834
+INFO 2022-08-03 13:28:03,717 basehttp.py basehttp 187 "GET /send_sms_code?uuid=7d0c6985-51a4-4ade-ad8c-c279c7432e7a&mobile=15857174755&pic_code=IXYV HTTP/1.1" 200 29
+INFO 2022-08-03 13:28:08,601 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:28:08,733 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 15411
+INFO 2022-08-03 13:28:08,840 basehttp.py basehttp 187 "GET /images?uuid=10d0ec62-0cb1-46fd-bb52-e9dce3912004 HTTP/1.1" 200 2884
+INFO 2022-08-03 13:28:11,340 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:28:11,863 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:28:16,108 basehttp.py basehttp 187 "GET /send_sms_code?uuid=10d0ec62-0cb1-46fd-bb52-e9dce3912004&mobile=15857174755&pic_code=TXYD HTTP/1.1" 200 60
+ERROR 2022-08-03 13:28:22,216 views.py views 55 验证码过期
+INFO 2022-08-03 13:28:22,233 basehttp.py basehttp 187 "GET /send_sms_code?uuid=10d0ec62-0cb1-46fd-bb52-e9dce3912004&mobile=15857174755&pic_code=TXYD HTTP/1.1" 200 64
+ERROR 2022-08-03 13:28:36,646 views.py views 55 验证码过期
+INFO 2022-08-03 13:28:36,657 basehttp.py basehttp 187 "GET /send_sms_code?uuid=10d0ec62-0cb1-46fd-bb52-e9dce3912004&mobile=15857174755&pic_code=TXYD HTTP/1.1" 200 64
+INFO 2022-08-03 13:28:49,721 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:28:49,781 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:28:49,833 basehttp.py basehttp 187 "GET /images?uuid=d6d6de81-245e-446b-af29-29337bc530c3 HTTP/1.1" 200 3318
+INFO 2022-08-03 13:28:51,486 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:28:51,912 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:28:56,653 basehttp.py basehttp 187 "GET /send_sms_code?uuid=d6d6de81-245e-446b-af29-29337bc530c3&mobile=15857174755&pic_code=AFPX HTTP/1.1" 200 60
+ERROR 2022-08-03 13:29:41,260 views.py views 55 验证码过期
+INFO 2022-08-03 13:29:41,267 basehttp.py basehttp 187 "GET /send_sms_code?uuid=d6d6de81-245e-446b-af29-29337bc530c3&mobile=15857174755&pic_code=AFPX HTTP/1.1" 200 64
+INFO 2022-08-03 13:29:42,954 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:29:48,079 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:29:50,719 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4027
+INFO 2022-08-03 13:29:50,829 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:29:50,981 basehttp.py basehttp 187 "GET /images?uuid=c652acae-de92-42c0-a2a6-9accc27b0cde HTTP/1.1" 200 3256
+INFO 2022-08-03 13:29:53,119 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:29:53,720 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:29:58,723 basehttp.py basehttp 187 "GET /send_sms_code?uuid=c652acae-de92-42c0-a2a6-9accc27b0cde&mobile=15857174755&pic_code=ZSTB HTTP/1.1" 200 29
+WARNING 2022-08-03 13:30:09,471 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 13:33:27,602 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 13:33:27,777 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 15460
+WARNING 2022-08-03 13:33:27,790 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 13:33:27,839 basehttp.py basehttp 187 "GET /images?uuid=275c5b47-8af4-410a-af90-41e4938c2a42 HTTP/1.1" 200 3274
+INFO 2022-08-03 13:33:29,298 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:33:30,040 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:33:34,815 basehttp.py basehttp 187 "GET /send_sms_code?uuid=275c5b47-8af4-410a-af90-41e4938c2a42&mobile=15857174755&pic_code=SHZT HTTP/1.1" 200 29
+ERROR 2022-08-03 13:33:38,567 views.py views 55 验证码过期
+INFO 2022-08-03 13:33:38,577 basehttp.py basehttp 187 "GET /send_sms_code?uuid=275c5b47-8af4-410a-af90-41e4938c2a42&mobile=15857174755&pic_code=SHZT HTTP/1.1" 200 64
+INFO 2022-08-03 13:33:43,623 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 13:33:43,712 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:33:43,801 basehttp.py basehttp 187 "GET /images?uuid=f945665e-515a-400d-9831-20536e8f2e52 HTTP/1.1" 200 3327
+INFO 2022-08-03 13:33:45,624 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:33:46,295 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:33:51,741 basehttp.py basehttp 187 "GET /send_sms_code?uuid=f945665e-515a-400d-9831-20536e8f2e52&mobile=15857174755&pic_code=LSOG HTTP/1.1" 200 29
+INFO 2022-08-03 13:34:06,044 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 13:34:06,131 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:34:06,185 basehttp.py basehttp 187 "GET /images?uuid=4b238644-3a6f-4090-b1d1-4c441463b17e HTTP/1.1" 200 3347
+INFO 2022-08-03 13:34:07,813 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:34:07,842 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:34:12,922 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:34:17,459 basehttp.py basehttp 187 "GET /send_sms_code?uuid=4b238644-3a6f-4090-b1d1-4c441463b17e&mobile=15857174755&pic_code=3omq HTTP/1.1" 200 60
+INFO 2022-08-03 13:36:17,858 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 13:36:23,314 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:36:51,756 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 13:36:56,718 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:37:50,828 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:38:00,413 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\sms\tasks.py changed, reloading.
+INFO 2022-08-03 13:38:05,475 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:38:46,636 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 13:38:51,378 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 13:38:56,569 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 13:38:56,663 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 13:38:56,886 basehttp.py basehttp 187 "GET /images?uuid=9a732586-4dab-42a9-94cf-c469ed9fc379 HTTP/1.1" 200 3057
+INFO 2022-08-03 13:38:58,741 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:38:59,229 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:39:00,164 basehttp.py basehttp 187 "GET /images?uuid=1f49f86c-d3ee-4957-b8af-42cb505368c3 HTTP/1.1" 200 3601
+INFO 2022-08-03 13:39:05,323 basehttp.py basehttp 187 "GET /send_sms_code?uuid=1f49f86c-d3ee-4957-b8af-42cb505368c3&mobile=15857174755&pic_code=TXPW HTTP/1.1" 200 29
+ERROR 2022-08-03 13:42:44,030 views.py views 56 验证码过期
+INFO 2022-08-03 13:42:44,042 basehttp.py basehttp 187 "GET /send_sms_code?uuid=1f49f86c-d3ee-4957-b8af-42cb505368c3&mobile=15857174755&pic_code=TXPW HTTP/1.1" 200 64
+WARNING 2022-08-03 13:42:56,229 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+ERROR 2022-08-03 13:43:00,174 views.py views 56 验证码过期
+INFO 2022-08-03 13:43:00,179 basehttp.py basehttp 187 "GET /send_sms_code?uuid=1f49f86c-d3ee-4957-b8af-42cb505368c3&mobile=15857174755&pic_code=TXPW HTTP/1.1" 200 64
+ERROR 2022-08-03 13:43:43,621 views.py views 56 验证码过期
+INFO 2022-08-03 13:43:43,626 basehttp.py basehttp 187 "GET /send_sms_code?uuid=1f49f86c-d3ee-4957-b8af-42cb505368c3&mobile=15857174755&pic_code=TXPW HTTP/1.1" 200 64
+INFO 2022-08-03 13:43:47,030 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 13:43:47,144 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 200 15452
+INFO 2022-08-03 13:43:47,191 basehttp.py basehttp 187 "GET /images?uuid=7a040642-ae2a-4655-bb18-25f5ef66d83f HTTP/1.1" 200 3085
+WARNING 2022-08-03 13:43:52,290 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 13:43:53,757 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:43:54,212 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 13:43:57,759 basehttp.py basehttp 187 "GET /send_sms_code?uuid=7a040642-ae2a-4655-bb18-25f5ef66d83f&mobile=15857174755&pic_code=kspy HTTP/1.1" 200 29
+ERROR 2022-08-03 13:44:07,999 views.py views 56 验证码过期
+INFO 2022-08-03 13:44:08,013 basehttp.py basehttp 187 "GET /send_sms_code?uuid=7a040642-ae2a-4655-bb18-25f5ef66d83f&mobile=15857174755&pic_code=kspy HTTP/1.1" 200 64
+INFO 2022-08-03 13:44:08,056 basehttp.py basehttp 187 "GET /images?uuid=10c8a66c-a867-4b0b-a23a-2ad22ef6a7ac HTTP/1.1" 200 2985
+INFO 2022-08-03 13:45:21,839 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:45:26,868 autoreload.py autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-08-03 13:48:36,728 views.py views 58 验证码过期
+INFO 2022-08-03 13:48:36,736 basehttp.py basehttp 187 "GET /send_sms_code?uuid=10c8a66c-a867-4b0b-a23a-2ad22ef6a7ac&mobile=15857174755&pic_code=kspy HTTP/1.1" 200 64
+INFO 2022-08-03 13:48:36,850 basehttp.py basehttp 187 "GET /images?uuid=4cfed195-9c85-481b-bcf7-9aeb1477704f HTTP/1.1" 200 3282
+INFO 2022-08-03 13:48:45,708 basehttp.py basehttp 187 "GET /send_sms_code?uuid=4cfed195-9c85-481b-bcf7-9aeb1477704f&mobile=15857174755&pic_code=rd7e HTTP/1.1" 200 29
+INFO 2022-08-03 13:55:44,287 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\views.py changed, reloading.
+INFO 2022-08-03 13:55:50,850 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:02:10,604 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:02:14,853 basehttp.py basehttp 80 - Broken pipe from ('127.0.0.1', 60991)
+
+INFO 2022-08-03 14:02:15,449 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 14:02:16,030 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-03 14:02:16,162 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 14:02:16,431 basehttp.py basehttp 187 "GET /images?uuid=8a53d244-ff5c-401f-87ac-e6b552433ec5 HTTP/1.1" 200 3051
+INFO 2022-08-03 14:02:18,247 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:02:18,628 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:02:23,498 basehttp.py basehttp 187 "GET /images?uuid=b6b50cab-e1fa-48d6-9cab-14505c8a788c HTTP/1.1" 200 3400
+INFO 2022-08-03 14:02:28,397 basehttp.py basehttp 187 "GET /send_sms_code?uuid=b6b50cab-e1fa-48d6-9cab-14505c8a788c&mobile=15857174755&pic_code=LWjf HTTP/1.1" 200 29
+INFO 2022-08-03 14:07:12,658 basehttp.py basehttp 187 "GET /images?uuid=494f159e-b045-4bd7-ade7-c1d564883145 HTTP/1.1" 200 3221
+INFO 2022-08-03 14:07:17,933 basehttp.py basehttp 187 "GET /send_sms_code?uuid=494f159e-b045-4bd7-ade7-c1d564883145&mobile=15857174755&pic_code=P8FG HTTP/1.1" 200 29
+INFO 2022-08-03 14:08:26,955 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 14:08:27,108 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-03 14:08:27,210 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 14:08:27,213 basehttp.py basehttp 187 "GET /images?uuid=68da41d7-e7ed-48f6-8bdb-0c69a3f72bac HTTP/1.1" 200 3455
+INFO 2022-08-03 14:08:27,277 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\verifications\全局变量.py changed, reloading.
+INFO 2022-08-03 14:08:32,461 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:08:35,113 basehttp.py basehttp 187 "GET /send_sms_code?uuid=68da41d7-e7ed-48f6-8bdb-0c69a3f72bac&mobile=15857174755&pic_code=homn HTTP/1.1" 200 60
+INFO 2022-08-03 14:08:35,212 basehttp.py basehttp 187 "GET /images?uuid=0ee61de3-8237-4301-8582-5e1385bf840b HTTP/1.1" 200 2923
+ERROR 2022-08-03 14:08:42,769 views.py views 65 验证码错误
+INFO 2022-08-03 14:08:42,784 basehttp.py basehttp 187 "GET /send_sms_code?uuid=0ee61de3-8237-4301-8582-5e1385bf840b&mobile=15857174755&pic_code=homn HTTP/1.1" 200 64
+INFO 2022-08-03 14:08:42,808 basehttp.py basehttp 187 "GET /images?uuid=eb488f83-d7d8-45d3-854b-7a3c3c07ef95 HTTP/1.1" 200 3550
+ERROR 2022-08-03 14:08:44,586 views.py views 65 验证码错误
+INFO 2022-08-03 14:08:44,589 basehttp.py basehttp 187 "GET /send_sms_code?uuid=eb488f83-d7d8-45d3-854b-7a3c3c07ef95&mobile=15857174755&pic_code=homn HTTP/1.1" 200 64
+INFO 2022-08-03 14:08:44,615 basehttp.py basehttp 187 "GET /images?uuid=53a33cfd-05da-4876-986f-38dde4926e1f HTTP/1.1" 200 3311
+ERROR 2022-08-03 14:08:45,480 views.py views 65 验证码错误
+INFO 2022-08-03 14:08:45,482 basehttp.py basehttp 187 "GET /send_sms_code?uuid=53a33cfd-05da-4876-986f-38dde4926e1f&mobile=15857174755&pic_code=homn HTTP/1.1" 200 64
+INFO 2022-08-03 14:08:45,503 basehttp.py basehttp 187 "GET /images?uuid=bc350732-4020-49f1-aa8f-17154242b233 HTTP/1.1" 200 3014
+ERROR 2022-08-03 14:08:45,650 views.py views 65 验证码错误
+INFO 2022-08-03 14:08:45,652 basehttp.py basehttp 187 "GET /send_sms_code?uuid=bc350732-4020-49f1-aa8f-17154242b233&mobile=15857174755&pic_code=homn HTTP/1.1" 200 64
+INFO 2022-08-03 14:08:45,697 basehttp.py basehttp 187 "GET /images?uuid=824fd1c1-5b4b-44a2-9292-896e6bd299dd HTTP/1.1" 200 3056
+ERROR 2022-08-03 14:08:45,814 views.py views 65 验证码错误
+INFO 2022-08-03 14:08:45,817 basehttp.py basehttp 187 "GET /send_sms_code?uuid=824fd1c1-5b4b-44a2-9292-896e6bd299dd&mobile=15857174755&pic_code=homn HTTP/1.1" 200 64
+INFO 2022-08-03 14:08:45,854 basehttp.py basehttp 187 "GET /images?uuid=cbf93640-87e6-4215-8914-049020a0cc96 HTTP/1.1" 200 2930
+ERROR 2022-08-03 14:08:45,957 views.py views 65 验证码错误
+INFO 2022-08-03 14:08:45,959 basehttp.py basehttp 187 "GET /send_sms_code?uuid=cbf93640-87e6-4215-8914-049020a0cc96&mobile=15857174755&pic_code=homn HTTP/1.1" 200 64
+INFO 2022-08-03 14:08:45,982 basehttp.py basehttp 187 "GET /images?uuid=6b1a3d60-7e97-4715-8fe0-69e66db992ec HTTP/1.1" 200 2915
+INFO 2022-08-03 14:10:05,206 basehttp.py basehttp 187 "GET /send_sms_code?uuid=6b1a3d60-7e97-4715-8fe0-69e66db992ec&mobile=15857174755&pic_code=wqbg HTTP/1.1" 200 29
+INFO 2022-08-03 14:13:22,436 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 14:13:30,025 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:13:39,530 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 14:13:39,665 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-03 14:13:39,732 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 14:13:39,955 basehttp.py basehttp 187 "GET /images?uuid=7a7b9016-ba98-4ef2-8b4f-83db8f93724e HTTP/1.1" 200 3062
+INFO 2022-08-03 14:13:41,646 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:13:42,199 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:13:51,747 basehttp.py basehttp 187 "GET /send_sms_code?uuid=7a7b9016-ba98-4ef2-8b4f-83db8f93724e&mobile=15857174755&pic_code=puhb HTTP/1.1" 200 29
+INFO 2022-08-03 14:19:44,287 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 14:19:50,762 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:20:58,826 basehttp.py basehttp 187 "GET /images?uuid=bfc508c2-8691-4e3e-b2bf-59c6c66ebb6b HTTP/1.1" 200 3475
+INFO 2022-08-03 14:21:06,838 basehttp.py basehttp 187 "GET /send_sms_code?uuid=bfc508c2-8691-4e3e-b2bf-59c6c66ebb6b&mobile=15857174755&pic_code=zapm HTTP/1.1" 200 29
+INFO 2022-08-03 14:22:59,324 basehttp.py basehttp 187 "GET /images?uuid=da252521-3655-4d29-90cf-0182b8461e02 HTTP/1.1" 200 3343
+INFO 2022-08-03 14:23:05,160 basehttp.py basehttp 187 "GET /send_sms_code?uuid=da252521-3655-4d29-90cf-0182b8461e02&mobile=15857174755&pic_code=FQPY HTTP/1.1" 200 29
+INFO 2022-08-03 14:25:04,573 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 14:25:10,708 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:25:33,431 basehttp.py basehttp 187 "GET /images?uuid=dcd080e8-b26f-435c-9e5e-6ff639b9b998 HTTP/1.1" 200 2968
+INFO 2022-08-03 14:25:38,280 basehttp.py basehttp 187 "GET /send_sms_code?uuid=dcd080e8-b26f-435c-9e5e-6ff639b9b998&mobile=15857174755&pic_code=yu6k HTTP/1.1" 200 29
+INFO 2022-08-03 14:26:23,044 basehttp.py basehttp 187 "GET /images?uuid=03ca14ec-f18c-499f-bf04-7a6db4d5bdf6 HTTP/1.1" 200 2873
+INFO 2022-08-03 14:26:28,881 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 14:26:29,035 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 14:26:29,170 basehttp.py basehttp 187 "GET /images?uuid=1d8881cf-197d-4a33-a96b-cf7e54b11e4e HTTP/1.1" 200 3502
+WARNING 2022-08-03 14:26:29,231 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-03 14:26:30,347 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:26:30,734 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:26:35,305 basehttp.py basehttp 187 "GET /send_sms_code?uuid=1d8881cf-197d-4a33-a96b-cf7e54b11e4e&mobile=15857174755&pic_code=ke8m HTTP/1.1" 200 29
+INFO 2022-08-03 14:28:51,247 basehttp.py basehttp 187 "GET /images?uuid=41c85f94-abce-4c73-b574-930421dd4ae5 HTTP/1.1" 200 3190
+INFO 2022-08-03 14:28:53,969 basehttp.py basehttp 187 "GET /images?uuid=7e3679ac-aa8d-480f-9796-2bfd3a3ac81c HTTP/1.1" 200 2830
+INFO 2022-08-03 14:28:58,696 basehttp.py basehttp 187 "GET /send_sms_code?uuid=7e3679ac-aa8d-480f-9796-2bfd3a3ac81c&mobile=15857174755&pic_code=rt8f HTTP/1.1" 200 29
+INFO 2022-08-03 14:29:54,549 basehttp.py basehttp 187 "GET /images?uuid=ea25cbbc-8417-4f10-9dc2-44ee3ee9e37b HTTP/1.1" 200 3135
+INFO 2022-08-03 14:29:59,658 basehttp.py basehttp 187 "GET /send_sms_code?uuid=ea25cbbc-8417-4f10-9dc2-44ee3ee9e37b&mobile=15857174755&pic_code=daoy HTTP/1.1" 200 29
+INFO 2022-08-03 14:32:32,029 basehttp.py basehttp 187 "GET /images?uuid=629466f2-ac0c-4591-9b3c-412ad894d851 HTTP/1.1" 200 3240
+INFO 2022-08-03 14:32:37,780 basehttp.py basehttp 187 "GET /send_sms_code?uuid=629466f2-ac0c-4591-9b3c-412ad894d851&mobile=15857174755&pic_code=YXDa HTTP/1.1" 200 29
+INFO 2022-08-03 14:39:45,453 basehttp.py basehttp 187 "GET /images?uuid=ecd75a01-e058-48b7-b4f8-4a36161757ec HTTP/1.1" 200 3314
+WARNING 2022-08-03 14:39:54,826 log.py log 241 Bad Request: /register/
+WARNING 2022-08-03 14:39:54,836 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 400 18
+INFO 2022-08-03 14:40:36,413 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 14:40:42,341 basehttp.py basehttp 187 "GET /images?uuid=3839c2cf-1d9b-4345-b4ce-e1ae96090200 HTTP/1.1" 200 3106
+INFO 2022-08-03 14:42:07,226 basehttp.py basehttp 187 "GET /images?uuid=fe89c0a4-2df9-44ff-a607-2cab95b96d1b HTTP/1.1" 200 3106
+INFO 2022-08-03 14:42:08,727 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:42:09,196 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:42:13,529 basehttp.py basehttp 187 "GET /send_sms_code?uuid=fe89c0a4-2df9-44ff-a607-2cab95b96d1b&mobile=15857174755&pic_code=wfw6 HTTP/1.1" 200 29
+INFO 2022-08-03 14:43:03,979 basehttp.py basehttp 187 "GET /images?uuid=fb627a3a-d182-4495-8c85-2e19a3a52cc9 HTTP/1.1" 200 3343
+INFO 2022-08-03 14:43:05,411 basehttp.py basehttp 187 "GET /images?uuid=ff49a29b-f810-47aa-afc7-f8e1ac70566f HTTP/1.1" 200 3032
+INFO 2022-08-03 14:43:14,660 basehttp.py basehttp 187 "GET /send_sms_code?uuid=ff49a29b-f810-47aa-afc7-f8e1ac70566f&mobile=15857174755&pic_code=ljvw HTTP/1.1" 200 29
+INFO 2022-08-03 14:44:23,575 basehttp.py basehttp 187 "GET /images?uuid=0bf9f943-90be-4da3-a623-2d95bf69c05d HTTP/1.1" 200 3145
+INFO 2022-08-03 14:44:27,512 basehttp.py basehttp 187 "GET /send_sms_code?uuid=0bf9f943-90be-4da3-a623-2d95bf69c05d&mobile=15857174755&pic_code=kkun HTTP/1.1" 200 29
+INFO 2022-08-03 14:44:51,667 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 14:44:51,725 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 14:44:51,770 basehttp.py basehttp 187 "GET /images?uuid=3ffc33c4-1a02-4431-b569-057c28d21a86 HTTP/1.1" 200 3070
+INFO 2022-08-03 14:44:53,497 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:44:54,095 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 14:44:59,604 basehttp.py basehttp 187 "GET /send_sms_code?uuid=3ffc33c4-1a02-4431-b569-057c28d21a86&mobile=15857174755&pic_code=u76m HTTP/1.1" 200 29
+INFO 2022-08-03 14:45:58,153 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\utils\celery\main.py changed, reloading.
+INFO 2022-08-03 14:46:01,816 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-03 15:22:34,143 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-03 15:22:34,306 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,307 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,313 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,315 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,315 basehttp.py basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,315 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,318 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,964 basehttp.py basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,964 basehttp.py basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:34,966 basehttp.py basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:35,037 basehttp.py basehttp 187 "GET /images?uuid=f3d29ab8-9dd4-4a1b-a078-86fb6dc32d42 HTTP/1.1" 200 3155
+WARNING 2022-08-03 15:22:35,187 log.py log 241 Not Found: /favicon.ico
+WARNING 2022-08-03 15:22:35,189 basehttp.py basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3178
+INFO 2022-08-03 15:22:37,427 basehttp.py basehttp 187 "GET /register/15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 15:22:41,636 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 15:22:44,157 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+WARNING 2022-08-03 15:22:44,793 log.py log 241 Bad Request: /register/
+WARNING 2022-08-03 15:22:44,799 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 400 52
+INFO 2022-08-03 15:22:47,936 basehttp.py basehttp 187 "GET /images?uuid=0331930b-ea1c-4302-bfe2-91bd1516f7cb HTTP/1.1" 200 2884
+INFO 2022-08-03 15:22:55,748 basehttp.py basehttp 187 "GET /register/15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 15:22:56,570 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 15:22:58,698 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-03 15:22:59,331 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-03 15:22:59,345 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+INFO 2022-08-03 15:22:59,382 basehttp.py basehttp 187 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,388 basehttp.py basehttp 187 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,452 basehttp.py basehttp 187 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,468 basehttp.py basehttp 187 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,468 basehttp.py basehttp 187 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,468 basehttp.py basehttp 187 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,475 basehttp.py basehttp 187 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,477 basehttp.py basehttp 187 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,479 basehttp.py basehttp 187 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,505 basehttp.py basehttp 187 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,517 basehttp.py basehttp 187 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,518 basehttp.py basehttp 187 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,522 basehttp.py basehttp 187 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,527 basehttp.py basehttp 187 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,532 basehttp.py basehttp 187 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,529 basehttp.py basehttp 187 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,534 basehttp.py basehttp 187 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,534 basehttp.py basehttp 187 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2022-08-03 15:22:59,541 basehttp.py basehttp 187 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2022-08-03 15:22:59,682 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-03 15:22:59,684 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3184
+INFO 2022-08-04 09:36:12,249 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:37:12,410 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+INFO 2022-08-04 09:37:12,509 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,530 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,534 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,534 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,535 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,540 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,541 basehttp.py basehttp 187 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,626 basehttp.py basehttp 187 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,708 basehttp.py basehttp 187 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,711 basehttp.py basehttp 187 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,714 basehttp.py basehttp 187 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,720 basehttp.py basehttp 187 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,724 basehttp.py basehttp 187 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,724 basehttp.py basehttp 187 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,729 basehttp.py basehttp 187 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,734 basehttp.py basehttp 187 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,816 basehttp.py basehttp 187 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,818 basehttp.py basehttp 187 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,877 basehttp.py basehttp 187 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,888 basehttp.py basehttp 187 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,889 basehttp.py basehttp 187 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,910 basehttp.py basehttp 187 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,915 basehttp.py basehttp 187 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,919 basehttp.py basehttp 187 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,923 basehttp.py basehttp 187 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2022-08-04 09:37:12,952 basehttp.py basehttp 187 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2022-08-04 09:37:13,216 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 09:37:13,220 log.py log 241 Not Found: /favicon.ico
+WARNING 2022-08-04 09:37:13,222 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3184
+WARNING 2022-08-04 09:37:13,224 basehttp.py basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3178
+INFO 2022-08-04 09:39:34,935 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\contents\views.py changed, reloading.
+INFO 2022-08-04 09:39:42,428 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:42:14,095 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\contents\views.py changed, reloading.
+INFO 2022-08-04 09:42:20,310 autoreload.py autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-08-04 09:42:37,449 log.py log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\contents\views.py", line 19, in get
+    return redirect(reversed("users:register"))
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '<reversed object at 0x000001D8A661B250>' not found. '<reversed object at 0x000001D8A661B250>' is not a valid view function or pattern name.
+ERROR 2022-08-04 09:42:37,462 basehttp.py basehttp 187 "GET / HTTP/1.1" 500 100331
+INFO 2022-08-04 09:43:32,193 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\contents\views.py changed, reloading.
+INFO 2022-08-04 09:43:37,474 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:43:49,828 basehttp.py basehttp 80 - Broken pipe from ('127.0.0.1', 59989)
+
+INFO 2022-08-04 09:44:07,172 basehttp.py basehttp 187 "GET / HTTP/1.1" 302 0
+INFO 2022-08-04 09:44:07,314 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:44:07,383 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-04 09:44:07,401 basehttp.py basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2022-08-04 09:44:07,402 basehttp.py basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2022-08-04 09:44:07,409 basehttp.py basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 304 0
+ERROR 2022-08-04 09:44:09,729 views.py views 36 redis有问题
+INFO 2022-08-04 09:44:09,736 basehttp.py basehttp 187 "GET /images?uuid=efcd7082-6b50-4d9a-98c2-2844d7e714fe HTTP/1.1" 200 15
+INFO 2022-08-04 09:44:20,250 basehttp.py basehttp 187 "GET /register/15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:44:25,030 basehttp.py basehttp 187 "GET /register/15857174751 HTTP/1.1" 200 23
+INFO 2022-08-04 09:44:30,648 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:44:31,977 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-04 09:44:33,216 views.py views 102 <class 'Exception'>
+INFO 2022-08-04 09:44:33,225 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+ERROR 2022-08-04 09:44:35,343 views.py views 36 redis有问题
+INFO 2022-08-04 09:44:35,346 basehttp.py basehttp 187 "GET /images?uuid=d0e01f78-b348-4a56-92c7-8739ac041802 HTTP/1.1" 200 15
+ERROR 2022-08-04 09:45:22,827 views.py views 102 <class 'Exception'>
+INFO 2022-08-04 09:45:22,839 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+ERROR 2022-08-04 09:45:24,960 views.py views 36 redis有问题
+INFO 2022-08-04 09:45:24,966 basehttp.py basehttp 187 "GET /images?uuid=a38d667a-d2f4-4fbe-8903-bf4be1015933 HTTP/1.1" 200 15
+ERROR 2022-08-04 09:45:46,139 views.py views 102 <class 'Exception'>
+INFO 2022-08-04 09:45:46,152 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+ERROR 2022-08-04 09:45:48,250 views.py views 36 redis有问题
+INFO 2022-08-04 09:45:48,256 basehttp.py basehttp 187 "GET /images?uuid=7557a997-ba07-4fd2-acd0-d026fbcb8084 HTTP/1.1" 200 15
+INFO 2022-08-04 09:45:50,538 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+ERROR 2022-08-04 09:45:52,647 views.py views 36 redis有问题
+INFO 2022-08-04 09:45:52,655 basehttp.py basehttp 187 "GET /images?uuid=7cbc9639-524d-4159-85b2-7307abaeb8a6 HTTP/1.1" 200 15
+ERROR 2022-08-04 09:45:58,084 views.py views 36 redis有问题
+INFO 2022-08-04 09:45:58,090 basehttp.py basehttp 187 "GET /images?uuid=62ebbc26-3bb9-4378-a7db-3cbf346a96af HTTP/1.1" 200 15
+INFO 2022-08-04 09:47:35,088 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:47:35,171 basehttp.py basehttp 187 "GET /images?uuid=98731897-16f8-4451-94d4-d0173cee4cc1 HTTP/1.1" 200 3247
+INFO 2022-08-04 09:48:00,206 basehttp.py basehttp 187 "GET /register/15857174751 HTTP/1.1" 200 23
+INFO 2022-08-04 09:48:06,640 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:48:08,443 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-04 09:48:10,016 views.py views 102 <class 'Exception'>
+INFO 2022-08-04 09:48:10,028 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:48:10,087 basehttp.py basehttp 187 "GET /images?uuid=de6320fc-7348-47d2-9867-977949893ac0 HTTP/1.1" 200 3308
+INFO 2022-08-04 09:49:05,273 basehttp.py basehttp 187 "GET /register/123123 HTTP/1.1" 200 23
+INFO 2022-08-04 09:49:10,812 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:49:12,257 basehttp.py basehttp 187 "GET /register?mobile=15857174754 HTTP/1.1" 200 23
+INFO 2022-08-04 09:49:19,330 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 09:49:45,393 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 09:49:45,682 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 09:49:45,684 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3184
+INFO 2022-08-04 09:51:39,467 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 09:51:45,494 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:51:49,291 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:51:49,734 basehttp.py basehttp 187 "GET /images?uuid=519b9064-30cd-44b9-9e1d-7059ed093013 HTTP/1.1" 200 3051
+INFO 2022-08-04 09:51:54,810 basehttp.py basehttp 187 "GET /register/134123 HTTP/1.1" 200 23
+INFO 2022-08-04 09:51:59,689 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:52:01,007 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-04 09:52:01,911 views.py views 102 <class 'Exception'>
+INFO 2022-08-04 09:52:01,917 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:52:01,988 basehttp.py basehttp 187 "GET /images?uuid=84bba950-cfd1-44a9-9b51-dc63d869e4a8 HTTP/1.1" 200 2921
+INFO 2022-08-04 09:52:41,416 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 09:52:47,671 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:53:08,753 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:53:09,269 basehttp.py basehttp 187 "GET /images?uuid=7495539a-4e57-4f8d-9e1c-9958a081f565 HTTP/1.1" 200 3398
+INFO 2022-08-04 09:53:11,377 basehttp.py basehttp 187 "GET /register/15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:53:20,004 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:53:21,085 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+WARNING 2022-08-04 09:53:22,061 log.py log 241 Bad Request: /register/
+WARNING 2022-08-04 09:53:22,063 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 400 55
+INFO 2022-08-04 09:53:27,656 basehttp.py basehttp 187 "GET /images?uuid=80190b19-ae6c-4f41-80e5-9de82141e598 HTTP/1.1" 200 3136
+INFO 2022-08-04 09:53:31,258 basehttp.py basehttp 187 "GET /register/111113123 HTTP/1.1" 200 23
+INFO 2022-08-04 09:53:36,840 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:53:38,115 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-04 09:53:39,720 views.py views 102 <class 'Exception'>
+INFO 2022-08-04 09:53:39,736 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:53:39,817 basehttp.py basehttp 187 "GET /images?uuid=a8bfe53f-4168-450c-9729-a3fccc13b68d HTTP/1.1" 200 3004
+INFO 2022-08-04 09:54:45,249 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 09:54:50,190 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:54:52,676 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:54:55,373 basehttp.py basehttp 187 "GET /register?mobile=15857174756 HTTP/1.1" 200 23
+ERROR 2022-08-04 09:55:16,916 log.py log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 103, in post
+    http.response.set_cookies["username"] = username
+AttributeError: module 'django.http.response' has no attribute 'set_cookies'
+ERROR 2022-08-04 09:55:16,927 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 500 85874
+INFO 2022-08-04 09:56:48,105 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 09:56:54,877 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 09:57:00,851 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 09:57:01,384 basehttp.py basehttp 187 "GET /images?uuid=8f63df51-944e-4a79-9781-64226633c3f8 HTTP/1.1" 200 3417
+INFO 2022-08-04 09:57:04,602 basehttp.py basehttp 187 "GET /register/34234123412 HTTP/1.1" 200 23
+INFO 2022-08-04 09:57:10,287 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 09:57:12,245 basehttp.py basehttp 187 "GET /register?mobile=15857174733 HTTP/1.1" 200 23
+ERROR 2022-08-04 09:57:25,176 log.py log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 103, in post
+    http.HttpResponse.set_cookie("username",username)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\http\response.py", line 221, in set_cookie
+    self.cookies[key] = value
+AttributeError: 'str' object has no attribute 'cookies'
+ERROR 2022-08-04 09:57:25,217 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 500 91006
+ERROR 2022-08-04 10:01:16,625 views.py views 97 <class 'Exception'>
+INFO 2022-08-04 10:01:16,638 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 10:01:16,762 basehttp.py basehttp 187 "GET /images?uuid=4099f3f8-92b9-48cb-8917-041935e2dd1a HTTP/1.1" 200 3615
+INFO 2022-08-04 10:02:30,799 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 10:02:36,384 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 10:02:45,771 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 10:02:46,961 basehttp.py basehttp 187 "GET /images?uuid=24d28f6e-9599-41de-a3d4-1c242ed261cf HTTP/1.1" 200 3224
+INFO 2022-08-04 10:02:49,686 basehttp.py basehttp 187 "GET /register/15857174755 HTTP/1.1" 200 23
+ERROR 2022-08-04 10:02:50,081 log.py log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 106, in post
+    http.HttpResponse.set_cookie("username",username)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\http\response.py", line 221, in set_cookie
+    self.cookies[key] = value
+AttributeError: 'str' object has no attribute 'cookies'
+ERROR 2022-08-04 10:02:50,088 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 500 90166
+ERROR 2022-08-04 10:03:11,766 log.py log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 106, in post
+    http.HttpResponse.set_cookie("username",username)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\http\response.py", line 221, in set_cookie
+    self.cookies[key] = value
+AttributeError: 'str' object has no attribute 'cookies'
+ERROR 2022-08-04 10:03:11,775 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 500 90166
+INFO 2022-08-04 10:04:03,091 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 10:04:08,270 autoreload.py autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-08-04 10:04:11,420 log.py log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 106, in post
+    http.HttpResponse.set_cookie(key="username",value=username)
+TypeError: HttpResponseBase.set_cookie() missing 1 required positional argument: 'self'
+ERROR 2022-08-04 10:04:11,427 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 500 85054
+ERROR 2022-08-04 10:04:16,807 log.py log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 106, in post
+    http.HttpResponse.set_cookie(key="username",value=username)
+TypeError: HttpResponseBase.set_cookie() missing 1 required positional argument: 'self'
+ERROR 2022-08-04 10:04:16,816 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 500 85054
+INFO 2022-08-04 10:05:07,468 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 10:05:12,861 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 10:05:39,580 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 10:05:42,225 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 10:05:42,525 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 10:05:42,529 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3184
+INFO 2022-08-04 10:08:00,557 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 10:08:06,157 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 10:08:08,927 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 10:08:10,288 basehttp.py basehttp 187 "GET /images?uuid=bbc07222-5b9a-4505-8afb-b2d51239d81d HTTP/1.1" 200 3474
+INFO 2022-08-04 10:08:13,829 basehttp.py basehttp 187 "GET /register/15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 10:08:13,943 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 10:08:17,779 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 10:08:18,110 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 10:08:18,112 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3184
+INFO 2022-08-04 10:11:23,045 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\contents\views.py changed, reloading.
+INFO 2022-08-04 10:11:29,987 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 10:19:08,426 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\contents\views.py changed, reloading.
+INFO 2022-08-04 10:19:14,007 autoreload.py autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-08-04 10:19:27,824 log.py log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\contents\views.py", line 18, in get
+    request.user.is_authenticated()
+TypeError: 'bool' object is not callable
+ERROR 2022-08-04 10:19:27,861 basehttp.py basehttp 187 "GET / HTTP/1.1" 500 82841
+INFO 2022-08-04 10:19:37,343 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\contents\views.py changed, reloading.
+INFO 2022-08-04 10:19:45,492 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 13:52:12,245 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 13:52:54,446 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 13:52:55,865 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 13:52:55,896 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
+WARNING 2022-08-04 13:52:55,912 log.py log 241 Not Found: /favicon.ico
+WARNING 2022-08-04 13:52:55,915 basehttp.py basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2022-08-04 13:52:57,745 basehttp.py basehttp 187 "GET /static/login.html HTTP/1.1" 200 2676
+INFO 2022-08-04 13:52:57,833 basehttp.py basehttp 187 "GET /static/js/login.js HTTP/1.1" 200 1818
+INFO 2022-08-04 13:52:57,846 basehttp.py basehttp 187 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-08-04 13:52:57,873 basehttp.py basehttp 187 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-08-04 13:52:57,993 basehttp.py basehttp 187 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-08-04 13:53:16,220 basehttp.py basehttp 187 "POST /static/login.html HTTP/1.1" 200 2676
+WARNING 2022-08-04 13:53:23,311 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-04 13:54:21,090 basehttp.py basehttp 187 "GET /login HTTP/1.1" 200 3036
+INFO 2022-08-04 13:54:21,400 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-08-04 13:54:21,448 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
+INFO 2022-08-04 13:54:21,455 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
+INFO 2022-08-04 13:54:21,460 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-08-04 13:54:21,476 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-08-04 13:54:21,481 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-08-04 13:54:21,488 basehttp.py basehttp 187 "GET /static/js/login.js HTTP/1.1" 200 1818
+INFO 2022-08-04 13:54:21,514 basehttp.py basehttp 187 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-08-04 13:54:21,518 basehttp.py basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-08-04 13:54:21,555 basehttp.py basehttp 187 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-08-04 13:54:21,636 basehttp.py basehttp 187 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-08-04 13:54:21,715 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-04 13:55:07,332 basehttp.py basehttp 187 "POST /login HTTP/1.1" 200 3123
+INFO 2022-08-04 13:55:07,379 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-08-04 13:55:07,400 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
+INFO 2022-08-04 13:55:07,406 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
+INFO 2022-08-04 13:55:07,424 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-08-04 13:55:07,425 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-08-04 13:55:07,447 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-08-04 13:55:07,468 basehttp.py basehttp 187 "GET /static/js/login.js HTTP/1.1" 200 1818
+INFO 2022-08-04 13:55:07,476 basehttp.py basehttp 187 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-08-04 13:55:07,578 basehttp.py basehttp 187 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-08-04 13:55:07,584 basehttp.py basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-08-04 13:55:07,586 basehttp.py basehttp 187 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-08-04 13:55:07,646 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-04 13:56:32,775 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 13:56:39,262 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 13:56:42,271 basehttp.py basehttp 187 "GET /register HTTP/1.1" 200 23
+INFO 2022-08-04 13:56:48,138 basehttp.py basehttp 187 "GET /register HTTP/1.1" 200 23
+INFO 2022-08-04 13:57:00,567 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 13:57:00,703 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2022-08-04 13:57:03,143 views.py views 36 redis有问题
+INFO 2022-08-04 13:57:03,148 basehttp.py basehttp 187 "GET /images?uuid=54c8f265-0cdc-42a9-b2ec-333c4e7992d4 HTTP/1.1" 200 15
+INFO 2022-08-04 13:57:26,856 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 13:57:26,998 basehttp.py basehttp 187 "GET /images?uuid=b39a8c10-bdc0-44aa-9631-b7ce79a05790 HTTP/1.1" 200 3162
+INFO 2022-08-04 13:57:35,154 basehttp.py basehttp 187 "GET /register/sinoeast HTTP/1.1" 200 23
+INFO 2022-08-04 13:57:42,498 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 13:57:45,183 basehttp.py basehttp 187 "GET /register?mobile=15857174711 HTTP/1.1" 200 23
+INFO 2022-08-04 13:57:48,303 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 13:57:48,326 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 13:57:48,778 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 13:57:48,780 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
+INFO 2022-08-04 13:57:59,576 basehttp.py basehttp 187 "GET /login HTTP/1.1" 200 3036
+INFO 2022-08-04 13:57:59,940 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-08-04 13:57:59,993 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
+INFO 2022-08-04 13:57:59,999 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-08-04 13:58:00,015 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
+INFO 2022-08-04 13:58:00,028 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-08-04 13:58:00,069 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-08-04 13:58:00,098 basehttp.py basehttp 187 "GET /static/js/login.js HTTP/1.1" 200 1818
+INFO 2022-08-04 13:58:00,129 basehttp.py basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-08-04 13:58:00,129 basehttp.py basehttp 187 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-08-04 13:58:00,149 basehttp.py basehttp 187 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-08-04 13:58:00,225 basehttp.py basehttp 187 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-08-04 13:58:00,266 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2022-08-04 13:59:04,130 basehttp.py basehttp 187 "POST /login HTTP/1.1" 302 0
+INFO 2022-08-04 13:59:04,179 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+INFO 2022-08-04 13:59:04,234 basehttp.py basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-08-04 13:59:04,243 basehttp.py basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41356
+INFO 2022-08-04 13:59:04,254 basehttp.py basehttp 187 "GET /static/js/host.js HTTP/1.1" 200 81
+INFO 2022-08-04 13:59:04,257 basehttp.py basehttp 187 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-08-04 13:59:04,304 basehttp.py basehttp 187 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-08-04 13:59:04,305 basehttp.py basehttp 187 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-08-04 13:59:04,354 basehttp.py basehttp 187 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-08-04 13:59:04,356 basehttp.py basehttp 187 "GET /static/js/slide.js HTTP/1.1" 200 1914
+INFO 2022-08-04 13:59:04,397 basehttp.py basehttp 187 "GET /static/js/index.js HTTP/1.1" 200 1430
+INFO 2022-08-04 13:59:04,452 basehttp.py basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-08-04 13:59:04,457 basehttp.py basehttp 187 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-08-04 13:59:04,469 basehttp.py basehttp 187 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+WARNING 2022-08-04 13:59:04,554 basehttp.py basehttp 187 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+WARNING 2022-08-04 13:59:04,616 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 13:59:04,622 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
+INFO 2022-08-04 13:59:04,625 basehttp.py basehttp 187 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-08-04 13:59:04,630 basehttp.py basehttp 187 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-08-04 13:59:04,632 basehttp.py basehttp 187 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-08-04 13:59:04,706 basehttp.py basehttp 187 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-08-04 13:59:04,738 basehttp.py basehttp 187 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-08-04 13:59:04,748 basehttp.py basehttp 187 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-08-04 13:59:04,770 basehttp.py basehttp 187 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-08-04 13:59:04,785 basehttp.py basehttp 187 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-08-04 13:59:04,791 basehttp.py basehttp 187 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-08-04 13:59:04,826 basehttp.py basehttp 187 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-08-04 13:59:04,834 basehttp.py basehttp 187 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-08-04 13:59:04,839 basehttp.py basehttp 187 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-08-04 13:59:04,864 basehttp.py basehttp 187 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2022-08-04 13:59:04,865 basehttp.py basehttp 187 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-08-04 14:05:57,787 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 14:06:06,269 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 14:06:10,253 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 14:06:10,649 basehttp.py basehttp 187 "GET /images?uuid=2f2be7b9-8995-48b4-b65a-fbe482b30457 HTTP/1.1" 200 2980
+INFO 2022-08-04 14:06:26,278 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 302 0
+WARNING 2022-08-04 14:06:26,386 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:06:26,388 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+INFO 2022-08-04 14:10:58,156 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 302 0
+WARNING 2022-08-04 14:10:58,202 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:10:58,205 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+WARNING 2022-08-04 14:10:59,701 log.py log 241 Not Found: /favicon.ico
+WARNING 2022-08-04 14:10:59,707 basehttp.py basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2022-08-04 14:11:24,563 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 14:11:32,022 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 14:12:53,582 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 14:12:59,915 autoreload.py autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-08-04 14:13:07,807 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:07,819 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+WARNING 2022-08-04 14:13:09,961 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:09,964 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+WARNING 2022-08-04 14:13:10,907 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:10,909 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+WARNING 2022-08-04 14:13:11,057 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:11,059 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+WARNING 2022-08-04 14:13:11,199 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:11,201 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+INFO 2022-08-04 14:13:11,319 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\mall\settings.py changed, reloading.
+INFO 2022-08-04 14:13:16,922 autoreload.py autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-08-04 14:13:20,145 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:20,148 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+WARNING 2022-08-04 14:13:21,050 log.py log 241 Not Found: /login/
+WARNING 2022-08-04 14:13:21,052 basehttp.py basehttp 187 "GET /login/?next=/register/ HTTP/1.1" 404 3681
+INFO 2022-08-04 14:13:26,349 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 14:13:26,458 basehttp.py basehttp 187 "GET /login?next=/register/ HTTP/1.1" 200 3036
+INFO 2022-08-04 14:13:43,389 basehttp.py basehttp 187 "POST /login?next=/register/ HTTP/1.1" 302 0
+INFO 2022-08-04 14:13:43,437 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 14:13:43,664 basehttp.py basehttp 187 "GET /images?uuid=e6d4bcc1-25fe-4b47-a9f2-cf744f15ea32 HTTP/1.1" 200 2778
+INFO 2022-08-04 14:15:18,792 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 14:15:25,275 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 14:15:28,259 basehttp.py basehttp 187 "GET /login HTTP/1.1" 200 3036
+ERROR 2022-08-04 14:15:35,027 log.py log 241 Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\venv\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\hs\Desktop\mall\apps\users\views.py", line 178, in post
+    user = utils.UsernameMobileModelBackend().authenticate(username=username,password=passwrod)
+TypeError: UsernameMobileModelBackend.authenticate() missing 1 required positional argument: 'request'
+ERROR 2022-08-04 14:15:35,037 basehttp.py basehttp 187 "POST /login HTTP/1.1" 500 85614
+INFO 2022-08-04 14:16:08,759 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 14:16:14,524 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 14:16:48,014 basehttp.py basehttp 187 "POST /login HTTP/1.1" 200 3123
+INFO 2022-08-04 14:17:04,188 basehttp.py basehttp 187 "POST /login HTTP/1.1" 302 0
+INFO 2022-08-04 14:17:04,207 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 14:17:04,397 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 14:17:04,401 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
+INFO 2022-08-04 14:17:31,721 basehttp.py basehttp 187 "GET /login HTTP/1.1" 200 3036
+INFO 2022-08-04 14:17:48,550 basehttp.py basehttp 187 "POST /login HTTP/1.1" 302 0
+INFO 2022-08-04 14:17:48,562 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 14:17:48,772 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 14:17:48,774 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
+INFO 2022-08-04 14:20:41,902 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 14:20:48,528 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 16:19:27,353 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 16:19:27,847 basehttp.py basehttp 187 "GET /login HTTP/1.1" 200 3036
+WARNING 2022-08-04 16:19:28,347 log.py log 241 Not Found: /favicon.ico
+WARNING 2022-08-04 16:19:28,350 basehttp.py basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3680
+INFO 2022-08-04 16:21:06,169 basehttp.py basehttp 80 - Broken pipe from ('127.0.0.1', 62426)
+
+INFO 2022-08-04 16:21:10,202 basehttp.py basehttp 187 "GET /login HTTP/1.1" 200 3036
+INFO 2022-08-04 17:50:06,096 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 17:50:13,461 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 17:50:13,721 basehttp.py basehttp 187 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-08-04 17:50:13,726 basehttp.py basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2022-08-04 17:50:13,726 basehttp.py basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2022-08-04 17:50:14,237 basehttp.py basehttp 187 "GET /images?uuid=9e3cf51b-40d5-4a45-a62a-b3a81c5a4c94 HTTP/1.1" 200 2830
+INFO 2022-08-04 17:50:17,059 basehttp.py basehttp 187 "GET /register/lantian27294 HTTP/1.1" 200 23
+INFO 2022-08-04 17:50:25,412 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 17:50:27,992 basehttp.py basehttp 187 "GET /register?mobile=15857174788 HTTP/1.1" 200 23
+INFO 2022-08-04 17:50:28,157 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 17:50:53,774 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 17:50:54,146 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 17:50:54,148 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
+INFO 2022-08-04 17:51:13,376 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 17:51:13,472 basehttp.py basehttp 187 "GET /images?uuid=4856ca8d-c9d3-445c-a609-28ffb8558a2f HTTP/1.1" 200 3159
+INFO 2022-08-04 17:51:13,677 autoreload.py autoreload 266 C:\Users\hs\Desktop\mall\apps\users\views.py changed, reloading.
+INFO 2022-08-04 17:51:19,425 autoreload.py autoreload 677 Watching for file changes with StatReloader
+INFO 2022-08-04 17:51:22,857 basehttp.py basehttp 187 "GET /register/ HTTP/1.1" 200 4011
+INFO 2022-08-04 17:51:23,093 basehttp.py basehttp 187 "GET /images?uuid=9bc48282-b47b-4c3d-9437-4a899bc0759d HTTP/1.1" 200 3271
+INFO 2022-08-04 17:51:28,513 basehttp.py basehttp 187 "GET /register/sinoeast132 HTTP/1.1" 200 23
+INFO 2022-08-04 17:51:34,090 basehttp.py basehttp 187 "GET /register?mobile=15857174755 HTTP/1.1" 200 23
+INFO 2022-08-04 17:51:37,516 basehttp.py basehttp 187 "GET /register?mobile=15857174751 HTTP/1.1" 200 23
+INFO 2022-08-04 17:51:40,448 basehttp.py basehttp 187 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-08-04 17:52:09,557 basehttp.py basehttp 187 "GET / HTTP/1.1" 200 30173
+WARNING 2022-08-04 17:52:09,905 log.py log 241 Not Found: /carts/simple/
+WARNING 2022-08-04 17:52:09,908 basehttp.py basehttp 187 "GET /carts/simple/ HTTP/1.1" 404 3686
